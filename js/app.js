@@ -94,7 +94,7 @@
 
   function renderList() {
     el.grid.textContent = '';
-    data.stories.forEach(function (story, index) {
+    data.stories.forEach(function (story) {
       var li = document.createElement('li');
       var btn = document.createElement('button');
       btn.type = 'button';
@@ -102,7 +102,7 @@
 
       var num = document.createElement('span');
       num.className = 'story-card-number';
-      num.textContent = index + 1;
+      num.textContent = story.card;
 
       var title = document.createElement('span');
       title.className = 'story-card-title';

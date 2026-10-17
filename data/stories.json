@@ -46,29 +46,31 @@
   },
   "stories": [
     {
-      "id": "exemplo-001",
-      "example": true,
-      "card": "EXEMPLO — substituir pelos cards físicos",
+      "id": "card-066",
+      "card": 66,
       "title": {
-        "en": "The Lost Dog",
-        "pt": "O cachorro perdido",
-        "it": "Il cane smarrito"
+        "en": "April's New Shoes",
+        "pt": "O tênis novo da Júlia",
+        "it": "Le scarpe nuove di Martina"
       },
       "text": {
         "en": [
-          "Tom's dog ran out of the yard.",
-          "Tom looked everywhere and asked his neighbours for help.",
-          "In the evening, the dog came home and Tom gave him a big hug."
+          "Today, April is going shopping for a new pair of shoes.",
+          "She wants a pair of pink shoes with lime green shoelaces.",
+          "She really likes shoes that light up on the bottom when you walk.",
+          "Her mother told her that the shoes must cost less than $45."
         ],
         "pt": [
-          "O cachorro do Tom fugiu do quintal.",
-          "Tom procurou por toda parte e pediu ajuda aos vizinhos.",
-          "À noite, o cachorro voltou para casa e Tom lhe deu um grande abraço."
+          "Hoje, a Júlia vai sair para comprar um tênis novo.",
+          "Ela quer um tênis cor-de-rosa com cadarços verde-limão.",
+          "Ela adora tênis que acendem luzinhas na sola quando a gente anda.",
+          "A mãe dela disse que o tênis tem que custar menos de R$ 200."
         ],
         "it": [
-          "Il cane di Tom è scappato dal giardino.",
-          "Tom lo ha cercato dappertutto e ha chiesto aiuto ai vicini.",
-          "La sera il cane è tornato a casa e Tom gli ha dato un grande abbraccio."
+          "Oggi Martina va a comprare un paio di scarpe nuove.",
+          "Vuole un paio di scarpe rosa con i lacci verde lime.",
+          "Le piacciono tantissimo le scarpe che si illuminano sotto la suola quando cammini.",
+          "La mamma le ha detto che le scarpe devono costare meno di 45 euro."
         ]
       },
       "images": [],
@@ -76,25 +78,568 @@
         {
           "id": "a",
           "text": {
-            "en": "Tom lost his dog and found him again.",
-            "pt": "Tom perdeu seu cachorro e o encontrou de novo.",
-            "it": "Tom ha perso il suo cane e lo ha ritrovato."
+            "en": "April likes shoes that light up when you walk.",
+            "pt": "Júlia gosta de tênis que acendem quando a gente anda.",
+            "it": "A Martina piacciono le scarpe che si illuminano quando cammini."
           }
         },
         {
           "id": "b",
           "text": {
-            "en": "Tom's neighbours have a big yard.",
-            "pt": "Os vizinhos do Tom têm um quintal grande.",
-            "it": "I vicini di Tom hanno un grande giardino."
+            "en": "Shoes should always cost less than $45.",
+            "pt": "Tênis sempre devem custar menos de R$ 200.",
+            "it": "Le scarpe devono sempre costare meno di 45 euro."
           }
         },
         {
           "id": "c",
           "text": {
-            "en": "Tom likes to play in the evening.",
-            "pt": "Tom gosta de brincar à noite.",
-            "it": "A Tom piace giocare la sera."
+            "en": "April is looking for a new pair of shoes.",
+            "pt": "Júlia está procurando um tênis novo.",
+            "it": "Martina sta cercando un paio di scarpe nuove."
+          }
+        }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "card-068",
+      "card": 68,
+      "title": {
+        "en": "The Field Trip",
+        "pt": "O passeio da escola",
+        "it": "La gita scolastica"
+      },
+      "text": {
+        "en": [
+          "The leaves are falling, and the air is cool and crisp.",
+          "Mr. Manning's third grade class at Grovetown Elementary is on their annual field trip.",
+          "This year they are visiting an outdoor nature museum.",
+          "The guide at the museum is teaching them all about plants and animals."
+        ],
+        "pt": [
+          "As folhas estão caindo e o ar está fresquinho.",
+          "A turma do 3º ano do professor Carlos, da Escola Bosque Verde, está no passeio anual da escola.",
+          "Este ano, eles estão visitando um museu de natureza ao ar livre.",
+          "O guia do museu está ensinando a eles tudo sobre plantas e animais."
+        ],
+        "it": [
+          "Le foglie cadono e l'aria è fresca e frizzante.",
+          "La terza elementare del maestro Rossi, della scuola Valverde, è in gita come ogni anno.",
+          "Quest'anno visitano un museo della natura all'aperto.",
+          "La guida del museo insegna loro tutto su piante e animali."
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Mr. Manning is a teacher.",
+            "pt": "Carlos é professor.",
+            "it": "Il signor Rossi è un maestro."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Everyone should learn about plants and animals.",
+            "pt": "Todo mundo deveria aprender sobre plantas e animais.",
+            "it": "Tutti dovrebbero imparare a conoscere piante e animali."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The third grade class is on a field trip.",
+            "pt": "A turma do 3º ano está num passeio da escola.",
+            "it": "La terza elementare è in gita scolastica."
+          }
+        }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "card-073",
+      "card": 73,
+      "title": {
+        "en": "Ned's Bugs",
+        "pt": "Os insetos do Pedro",
+        "it": "Gli insetti di Luca"
+      },
+      "text": {
+        "en": [
+          "Ned has a gigantic bug collection.",
+          "He collects all types of bugs and puts them in jars.",
+          "He puts holes in the top so that the bugs can breathe.",
+          "He also collects leaves and other things to feed his bugs.",
+          "Today, Ned will look for new bugs.",
+          "Ned's sister thinks that his hobby is gross — Ned likes that, too!"
+        ],
+        "pt": [
+          "Pedro tem uma coleção gigante de insetos.",
+          "Ele coleciona todo tipo de inseto e os coloca em potes.",
+          "Ele faz furinhos na tampa para que os insetos possam respirar.",
+          "Ele também junta folhas e outras coisas para alimentar seus insetos.",
+          "Hoje, Pedro vai procurar insetos novos.",
+          "A irmã do Pedro acha o passatempo dele nojento — e Pedro também gosta disso!"
+        ],
+        "it": [
+          "Luca ha una gigantesca collezione di insetti.",
+          "Colleziona insetti di ogni tipo e li mette nei barattoli.",
+          "Fa dei buchi nel coperchio perché gli insetti possano respirare.",
+          "Raccoglie anche foglie e altre cose per dare da mangiare ai suoi insetti.",
+          "Oggi Luca andrà a cercare nuovi insetti.",
+          "La sorella di Luca pensa che il suo hobby sia disgustoso — e anche questo a Luca piace!"
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ned collects bugs.",
+            "pt": "Pedro coleciona insetos.",
+            "it": "Luca colleziona insetti."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Make sure to feed your bugs.",
+            "pt": "Não se esqueça de alimentar seus insetos.",
+            "it": "Ricordati di dare da mangiare ai tuoi insetti."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Ned's sister is right about Ned's hobby being gross.",
+            "pt": "A irmã do Pedro tem razão: o passatempo dele é nojento.",
+            "it": "La sorella di Luca ha ragione: il suo hobby è disgustoso."
+          }
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "card-074",
+      "card": 74,
+      "title": {
+        "en": "How We Taste Food",
+        "pt": "Como sentimos o gosto",
+        "it": "Come sentiamo i sapori"
+      },
+      "text": {
+        "en": [
+          "How do we taste food?",
+          "Different smells of food stimulate the taste buds on your tongue.",
+          "When the food goes into your mouth, the taste buds allow you to taste the many flavors.",
+          "They tell you if food is salty, sweet, bitter, or sour.",
+          "Have you ever smelled something, and it seemed like you could already taste it?"
+        ],
+        "pt": [
+          "Como sentimos o gosto da comida?",
+          "Os diferentes cheiros da comida estimulam as papilas gustativas da sua língua.",
+          "Quando a comida entra na sua boca, as papilas gustativas deixam você sentir os vários sabores.",
+          "Elas dizem se a comida é salgada, doce, amarga ou azeda.",
+          "Você já sentiu o cheiro de alguma coisa e pareceu que já conseguia sentir o gosto?"
+        ],
+        "it": [
+          "Come sentiamo il sapore del cibo?",
+          "I diversi odori del cibo stimolano le papille gustative sulla lingua.",
+          "Quando il cibo entra in bocca, le papille gustative ti permettono di sentire tanti sapori.",
+          "Ti dicono se il cibo è salato, dolce, amaro o aspro.",
+          "Ti è mai capitato di sentire un odore e avere l'impressione di sentirne già il sapore?"
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Food is salty, sweet, bitter, or sour.",
+            "pt": "A comida é salgada, doce, amarga ou azeda.",
+            "it": "Il cibo è salato, dolce, amaro o aspro."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Taste buds are on the tongue.",
+            "pt": "As papilas gustativas ficam na língua.",
+            "it": "Le papille gustative sono sulla lingua."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The smell of food helps you taste it.",
+            "pt": "O cheiro da comida ajuda a sentir o gosto dela.",
+            "it": "L'odore del cibo ti aiuta a sentirne il sapore."
+          }
+        }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "card-075",
+      "card": 75,
+      "title": {
+        "en": "The Flying Horse",
+        "pt": "O cavalo voador",
+        "it": "Il cavallo volante"
+      },
+      "text": {
+        "en": [
+          "Everyone knows that horses don't fly.",
+          "Well, that is what Billy thought, until one day he saw a horse flying in the sky.",
+          "That magical white horse had a long white mane and dark eyes.",
+          "Billy told his dad what he had seen.",
+          "His dad said, “Billy, you sure do have a wonderful imagination.”",
+          "But Billy said, “I will never forget the day I saw a horse fly.”"
+        ],
+        "pt": [
+          "Todo mundo sabe que cavalos não voam.",
+          "Bom, era o que o Lucas pensava, até que um dia ele viu um cavalo voando no céu.",
+          "Aquele cavalo branco mágico tinha uma longa crina branca e olhos escuros.",
+          "Lucas contou ao pai o que tinha visto.",
+          "O pai disse: “Lucas, você tem mesmo uma imaginação maravilhosa.”",
+          "Mas Lucas respondeu: “Eu nunca vou esquecer o dia em que vi um cavalo voar.”"
+        ],
+        "it": [
+          "Tutti sanno che i cavalli non volano.",
+          "Beh, è quello che pensava Marco, finché un giorno vide un cavallo volare nel cielo.",
+          "Quel cavallo bianco magico aveva una lunga criniera bianca e gli occhi scuri.",
+          "Marco raccontò al papà quello che aveva visto.",
+          "Il papà disse: «Marco, hai proprio una fantasia meravigliosa.»",
+          "Ma Marco rispose: «Non dimenticherò mai il giorno in cui ho visto volare un cavallo.»"
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Horses have a mane.",
+            "pt": "Cavalos têm crina.",
+            "it": "I cavalli hanno la criniera."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Billy saw a white horse flying in the sky.",
+            "pt": "Lucas viu um cavalo branco voando no céu.",
+            "it": "Marco ha visto un cavallo bianco volare nel cielo."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Billy talked with his dad.",
+            "pt": "Lucas conversou com o pai.",
+            "it": "Marco ha parlato con il papà."
+          }
+        }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "card-076",
+      "card": 76,
+      "title": {
+        "en": "Uncle Herbert's Garden",
+        "pt": "O jardim do tio Antônio",
+        "it": "Il giardino di zio Giuseppe"
+      },
+      "text": {
+        "en": [
+          "Samantha's Uncle Herbert is 80 years old.",
+          "Every day he gets out of bed to do his favorite daily activity — working in the garden.",
+          "In the spring, Herbert plants vegetables, flowers, and fruit.",
+          "One summer, his watermelon won a blue ribbon at a local contest.",
+          "Herbert loves to give what he grows to his family and friends."
+        ],
+        "pt": [
+          "Antônio, o tio da Sofia, tem 80 anos.",
+          "Todos os dias ele sai da cama para fazer sua atividade preferida — cuidar do jardim.",
+          "Na primavera, Antônio planta legumes, flores e frutas.",
+          "Num verão, a melancia dele ganhou o primeiro prêmio num concurso da cidade.",
+          "Antônio adora dar o que ele planta para a família e os amigos."
+        ],
+        "it": [
+          "Giuseppe, lo zio di Giulia, ha 80 anni.",
+          "Ogni giorno si alza dal letto per fare la sua attività preferita: lavorare in giardino.",
+          "In primavera Giuseppe pianta verdure, fiori e frutta.",
+          "Un'estate, la sua anguria ha vinto il primo premio a una gara del paese.",
+          "A Giuseppe piace tantissimo regalare quello che coltiva alla famiglia e agli amici."
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Herbert is a good gardener.",
+            "pt": "Antônio é um bom jardineiro.",
+            "it": "Giuseppe è un bravo giardiniere."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Herbert is Samantha's uncle.",
+            "pt": "Antônio é tio da Sofia.",
+            "it": "Giuseppe è lo zio di Giulia."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Herbert's watermelon won a blue ribbon.",
+            "pt": "A melancia do Antônio ganhou o primeiro prêmio.",
+            "it": "L'anguria di Giuseppe ha vinto il primo premio."
+          }
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "card-077",
+      "card": 77,
+      "title": {
+        "en": "The Hummingbird",
+        "pt": "O beija-flor",
+        "it": "Il colibrì"
+      },
+      "text": {
+        "en": [
+          "What is that humming sound coming from outside the window?",
+          "A very small bird flies to the bird feeder to get some sweet juice.",
+          "It is a hummingbird.",
+          "The hummingbird gets its name because of the sound its wings make as it flies.",
+          "Many people enjoy listening to hummingbirds."
+        ],
+        "pt": [
+          "Que zumbido é esse que vem lá de fora da janela?",
+          "Um passarinho bem pequeno voa até o bebedouro para tomar um pouco de água com açúcar.",
+          "É um beija-flor.",
+          "As asas do beija-flor batem tão rápido que fazem um zumbido enquanto ele voa.",
+          "Muitas pessoas gostam de ouvir os beija-flores."
+        ],
+        "it": [
+          "Cos'è quel ronzio che arriva da fuori della finestra?",
+          "Un uccellino piccolissimo vola fino alla mangiatoia per bere un po' di succo dolce.",
+          "È un colibrì.",
+          "Le ali del colibrì battono così veloci che, mentre vola, fanno un ronzio.",
+          "A molte persone piace ascoltare i colibrì."
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Hummingbirds like juice.",
+            "pt": "Beija-flores gostam de água com açúcar.",
+            "it": "Ai colibrì piace il succo."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Hummingbirds make a humming sound.",
+            "pt": "Beija-flores fazem um zumbido.",
+            "it": "I colibrì fanno un ronzio."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "People enjoy listening to hummingbirds.",
+            "pt": "As pessoas gostam de ouvir os beija-flores.",
+            "it": "Alle persone piace ascoltare i colibrì."
+          }
+        }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "card-078",
+      "card": 78,
+      "title": {
+        "en": "The Magic Feather",
+        "pt": "A pena mágica",
+        "it": "La piuma magica"
+      },
+      "text": {
+        "en": [
+          "Once upon a time, there was a little girl named Rebekah.",
+          "She was the oldest girl in her family, and she had six younger sisters.",
+          "One day, Rebekah was outside with her sisters when she saw a soft, white feather come right out of the sky and fall to the ground.",
+          "There was a small note on the feather: “Be careful. This is a magic feather!”"
+        ],
+        "pt": [
+          "Era uma vez uma menininha chamada Beatriz.",
+          "Ela era a menina mais velha da família e tinha seis irmãs mais novas.",
+          "Um dia, Beatriz estava lá fora com as irmãs quando viu uma pena branca e macia sair do céu e cair no chão.",
+          "Havia um bilhetinho na pena: “Cuidado. Esta é uma pena mágica!”"
+        ],
+        "it": [
+          "C'era una volta una bambina di nome Chiara.",
+          "Era la figlia maggiore della sua famiglia e aveva sei sorelle più piccole.",
+          "Un giorno Chiara era fuori con le sorelle quando vide una piuma bianca e morbida scendere dal cielo e cadere a terra.",
+          "Sulla piuma c'era un bigliettino: «Attenzione. Questa è una piuma magica!»"
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Rebekah has six sisters.",
+            "pt": "Beatriz tem seis irmãs.",
+            "it": "Chiara ha sei sorelle."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Feathers fall from the sky.",
+            "pt": "Penas caem do céu.",
+            "it": "Le piume cadono dal cielo."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Rebekah found a magic feather.",
+            "pt": "Beatriz encontrou uma pena mágica.",
+            "it": "Chiara ha trovato una piuma magica."
+          }
+        }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "card-079",
+      "card": 79,
+      "title": {
+        "en": "Kimmy the Kangaroo",
+        "pt": "A cangurinha Kika",
+        "it": "Kiki, la piccola canguro"
+      },
+      "text": {
+        "en": [
+          "Kimmy the Kangaroo loved to ride in her mother's pouch.",
+          "The pouch was warm and soft.",
+          "Soon, Kimmy became too old to ride in her mother's pouch.",
+          "The day finally came for Kimmy to get out of her mother's pouch.",
+          "It was time for her to be hopping around on her own."
+        ],
+        "pt": [
+          "A cangurinha Kika adorava passear na bolsa da mamãe.",
+          "A bolsa era quentinha e macia.",
+          "Logo, Kika ficou grande demais para andar na bolsa da mamãe.",
+          "Finalmente chegou o dia de Kika sair da bolsa da mamãe.",
+          "Era hora de ela sair pulando sozinha por aí."
+        ],
+        "it": [
+          "Kiki, la piccola canguro, adorava viaggiare nel marsupio della mamma.",
+          "Il marsupio era caldo e morbido.",
+          "Presto Kiki diventò troppo grande per stare nel marsupio della mamma.",
+          "Finalmente arrivò il giorno in cui Kiki doveva uscire dal marsupio della mamma.",
+          "Era ora che saltellasse in giro da sola."
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Kimmy is a kangaroo.",
+            "pt": "Kika é uma canguru.",
+            "it": "Kiki è un canguro."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The pouch is warm and soft.",
+            "pt": "A bolsa é quentinha e macia.",
+            "it": "Il marsupio è caldo e morbido."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Kimmy is getting out of her mother's pouch.",
+            "pt": "Kika está saindo da bolsa da mamãe.",
+            "it": "Kiki sta uscendo dal marsupio della mamma."
+          }
+        }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "card-080",
+      "card": 80,
+      "title": {
+        "en": "Our Bones",
+        "pt": "Nossos ossos",
+        "it": "Le nostre ossa"
+      },
+      "text": {
+        "en": [
+          "What helps us to move?",
+          "Well, our bones help.",
+          "They also protect our organs and give us shape.",
+          "We would look pretty scary if we had no bones.",
+          "There are bones in almost every part of our bodies.",
+          "We have bones in our arms, legs, head, fingers, and toes."
+        ],
+        "pt": [
+          "O que nos ajuda a nos mexer?",
+          "Bem, os nossos ossos ajudam.",
+          "Eles também protegem os nossos órgãos e dão forma ao nosso corpo.",
+          "A gente ficaria bem assustador se não tivesse ossos.",
+          "Temos ossos em quase todas as partes do corpo.",
+          "Temos ossos nos braços, nas pernas, na cabeça, nos dedos das mãos e dos pés."
+        ],
+        "it": [
+          "Che cosa ci aiuta a muoverci?",
+          "Beh, ci aiutano le ossa.",
+          "Proteggono anche i nostri organi e danno forma al nostro corpo.",
+          "Saremmo proprio spaventosi se non avessimo le ossa.",
+          "Ci sono ossa in quasi ogni parte del corpo.",
+          "Abbiamo ossa nelle braccia, nelle gambe, nella testa, nelle dita delle mani e dei piedi."
+        ]
+      },
+      "images": [],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "There are many different bones in our body.",
+            "pt": "Existem muitos ossos diferentes no nosso corpo.",
+            "it": "Nel nostro corpo ci sono tante ossa diverse."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "We would look scary if we had no bones.",
+            "pt": "A gente ficaria assustador se não tivesse ossos.",
+            "it": "Saremmo spaventosi se non avessimo le ossa."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "We have bones in our fingers.",
+            "pt": "Temos ossos nos dedos.",
+            "it": "Abbiamo le ossa nelle dita."
           }
         }
       ],

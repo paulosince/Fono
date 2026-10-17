@@ -19,17 +19,17 @@ Cada história:
 
 | Campo | Descrição |
 |---|---|
-| `id` | Identificador único (ex.: `story-001`). |
-| `card` | Referência ao card físico (número/nome impresso). |
+| `id` | Identificador único (ex.: `card-073`). |
+| `card` | Número impresso no card físico (aparece na lista). |
 | `title.{en,pt,it}` | Título. |
 | `text.{en,pt,it}` | Lista de parágrafos (um item por frase/parágrafo). |
 | `images[]` | Opcional. `src` (caminho relativo, ex.: `images/story-001/1.png`) e `alt.{en,pt,it}`. |
-| `options[]` | Exatamente 3 alternativas: `id` (`a`/`b`/`c`) e `text.{en,pt,it}`. A ordem é embaralhada sempre que a história é aberta. |
+| `options[]` | Exatamente 3 alternativas: `id` (`a`/`b`/`c`, mesma letra do card físico) e `text.{en,pt,it}`. A ordem é embaralhada sempre que a história é aberta. |
 | `correctOptionId` | `id` da alternativa correta. |
-| `example` | `true` apenas na história de exemplo (será removida). |
 
 O texto original é o inglês (`en`); `pt` e `it` são traduções armazenadas no
-próprio JSON, para que a troca de idioma funcione sem internet.
+próprio JSON, para que a troca de idioma funcione sem internet. Nas traduções,
+nomes de pessoas (e moeda) foram adaptados para nomes comuns no Brasil e na Itália.
 
 ## Aplicação
 

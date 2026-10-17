@@ -1,5 +1,5 @@
 // Bump CACHE_VERSION whenever app files change so clients pick up the new shell.
-var CACHE_VERSION = 'fono-v1';
+var CACHE_VERSION = 'fono-v2';
 
 var APP_SHELL = [
   './',
