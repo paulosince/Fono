@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "defaultLanguage": "en",
+  "languages": [
+    { "code": "en", "label": "English", "flag": "🇬🇧" },
+    { "code": "pt", "label": "Português", "flag": "🇧🇷" },
+    { "code": "it", "label": "Italiano", "flag": "🇮🇹" }
+  ],
+  "ui": {
+    "en": {
+      "chooseStory": "Choose a story",
+      "question": "What is the main idea of this story?",
+      "correct": "Well done!",
+      "tryAgain": "Let's try again",
+      "back": "Back to stories",
+      "animations": "Animations"
+    },
+    "pt": {
+      "chooseStory": "Escolha uma história",
+      "question": "Qual é a ideia principal desta história?",
+      "correct": "Muito bem!",
+      "tryAgain": "Vamos tentar de novo",
+      "back": "Voltar às histórias",
+      "animations": "Animações"
+    },
+    "it": {
+      "chooseStory": "Scegli una storia",
+      "question": "Qual è l'idea principale di questa storia?",
+      "correct": "Bravissimo!",
+      "tryAgain": "Proviamo ancora",
+      "back": "Torna alle storie",
+      "animations": "Animazioni"
+    }
+  },
+  "stories": [
+    {
+      "id": "exemplo-001",
+      "example": true,
+      "card": "EXEMPLO — substituir pelos cards físicos",
+      "title": {
+        "en": "The Lost Dog",
+        "pt": "O cachorro perdido",
+        "it": "Il cane smarrito"
+      },
+      "text": {
+        "en": [
+          "Tom's dog ran out of the yard.",
+          "Tom looked everywhere and asked his neighbours for help.",
+          "In the evening, the dog came home and Tom gave him a big hug."
+        ],
+        "pt": [
+          "O cachorro do Tom fugiu do quintal.",
+          "Tom procurou por toda parte e pediu ajuda aos vizinhos.",
+          "À noite, o cachorro voltou para casa e Tom lhe deu um grande abraço."
+        ],
+        "it": [
+          "Il cane di Tom è scappato dal giardino.",
+          "Tom lo ha cercato dappertutto e ha chiesto aiuto ai vicini.",
+          "La sera il cane è tornato a casa e Tom gli ha dato un grande abbraccio."
+        ]
+      },
+      "images": [
+        {
+          "src": "images/exemplo/exemplo-001-1.png",
+          "alt": {
+            "en": "A dog running out of an open gate",
+            "pt": "Um cachorro saindo por um portão aberto",
+            "it": "Un cane che esce da un cancello aperto"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Tom lost his dog and found him again.",
+            "pt": "Tom perdeu seu cachorro e o encontrou de novo.",
+            "it": "Tom ha perso il suo cane e lo ha ritrovato."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Tom's neighbours have a big yard.",
+            "pt": "Os vizinhos do Tom têm um quintal grande.",
+            "it": "I vicini di Tom hanno un grande giardino."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Tom likes to play in the evening.",
+            "pt": "Tom gosta de brincar à noite.",
+            "it": "A Tom piace giocare la sera."
+          }
+        }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}
