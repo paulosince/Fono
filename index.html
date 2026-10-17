@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Fono — Stories</title>
   <meta name="description" content="Stories and main idea: activity for speech therapy sessions.">
-  <meta name="theme-color" content="#2f7f86">
+  <meta name="theme-color" content="#f4efe6">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icons/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
@@ -13,12 +13,13 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Fono">
+  <link rel="preload" href="assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header class="topbar">
     <button type="button" class="back" id="back" hidden>
-      <span aria-hidden="true">‹</span> <span data-ui="back"></span>
+      <span aria-hidden="true">‹</span> <span class="back-label" data-ui="back"></span>
     </button>
     <div class="controls">
       <div class="langs" id="langs" role="group" aria-label="Language"></div>
@@ -31,19 +32,29 @@
   </header>
 
   <main id="main">
-    <section id="list-view" class="view">
-      <h1 data-ui="chooseStory"></h1>
-      <ul class="story-grid" id="story-grid"></ul>
+    <section id="deck-view" class="view deck-view">
+      <div class="deck-area">
+        <button type="button" class="deck-nav" id="prev"><span aria-hidden="true">‹</span></button>
+        <div class="deck" id="deck"></div>
+        <button type="button" class="deck-nav" id="next"><span aria-hidden="true">›</span></button>
+      </div>
+      <p class="deck-hint" data-ui="deckHint"></p>
     </section>
 
-    <section id="story-view" class="view" hidden>
-      <article class="story">
-        <h1 id="story-title"></h1>
-        <div class="story-images" id="story-images"></div>
-        <div class="story-text" id="story-text"></div>
-      </article>
-      <h2 class="question" data-ui="question"></h2>
-      <div class="options" id="options"></div>
+    <section id="story-view" class="view story-view" hidden>
+      <div class="story-layout">
+        <figure class="card card-back story-figure">
+          <div class="card-inner"><img id="story-image" alt=""></div>
+        </figure>
+        <article class="card card-front">
+          <div class="card-inner">
+            <p class="story-text" id="story-text"></p>
+            <h2 class="question-pill" data-ui="question"></h2>
+            <div class="options" id="options"></div>
+            <span class="card-number" id="story-number"></span>
+          </div>
+        </article>
+      </div>
       <p class="feedback" id="feedback" aria-live="polite"></p>
     </section>
 

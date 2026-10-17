@@ -1,5 +1,5 @@
 // Bump CACHE_VERSION whenever app files change so clients pick up the new shell.
-var CACHE_VERSION = 'fono-v2';
+var CACHE_VERSION = 'fono-v3';
 
 var APP_SHELL = [
   './',
@@ -13,8 +13,12 @@ var APP_SHELL = [
   'assets/flags/it.svg',
   'assets/icons/icon-192.png',
   'assets/icons/icon-512.png',
-  'assets/icons/apple-touch-icon.png'
-];
+  'assets/icons/apple-touch-icon.png',
+  'assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2',
+  'assets/fonts/atkinson-hyperlegible-latin-700-normal.woff2'
+].concat([66, 68, 73, 74, 75, 76, 77, 78, 79, 80].map(function (n) {
+  return 'assets/stories/card-0' + n + '.svg';
+}));
 
 self.addEventListener('install', function (event) {
   event.waitUntil(

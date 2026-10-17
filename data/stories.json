@@ -21,27 +21,36 @@
   "ui": {
     "en": {
       "chooseStory": "Choose a story",
-      "question": "What is the main idea of this story?",
+      "question": "What is the main idea?",
       "correct": "Well done!",
       "tryAgain": "Let's try again",
       "back": "Back to stories",
-      "animations": "Animations"
+      "animations": "Animations",
+      "deckHint": "Swipe to change the card · Tap to open",
+      "next": "Next card",
+      "previous": "Previous card"
     },
     "pt": {
       "chooseStory": "Escolha uma história",
-      "question": "Qual é a ideia principal desta história?",
+      "question": "Qual é a ideia principal?",
       "correct": "Muito bem!",
       "tryAgain": "Vamos tentar de novo",
       "back": "Voltar às histórias",
-      "animations": "Animações"
+      "animations": "Animações",
+      "deckHint": "Deslize para trocar de card · Toque para abrir",
+      "next": "Próximo card",
+      "previous": "Card anterior"
     },
     "it": {
       "chooseStory": "Scegli una storia",
-      "question": "Qual è l'idea principale di questa storia?",
+      "question": "Qual è l'idea principale?",
       "correct": "Bravissimo!",
       "tryAgain": "Proviamo ancora",
       "back": "Torna alle storie",
-      "animations": "Animazioni"
+      "animations": "Animazioni",
+      "deckHint": "Scorri per cambiare carta · Tocca per aprire",
+      "next": "Carta successiva",
+      "previous": "Carta precedente"
     }
   },
   "stories": [
@@ -73,7 +82,16 @@
           "La mamma le ha detto che le scarpe devono costare meno di 45 euro."
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-066.svg",
+          "alt": {
+            "en": "Pink sneakers with lime green laces and soles that light up, a price tag and a shopping bag",
+            "pt": "Tênis cor-de-rosa com cadarços verde-limão e sola que acende, uma etiqueta de preço e uma sacola de compras",
+            "it": "Scarpe rosa con lacci verde lime e suole luminose, un cartellino del prezzo e una borsa della spesa"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -130,7 +148,16 @@
           "La guida del museo insegna loro tutto su piante e animali."
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-068.svg",
+          "alt": {
+            "en": "A guide points at autumn trees while three children with backpacks listen",
+            "pt": "Um guia aponta para árvores de outono enquanto três crianças de mochila escutam",
+            "it": "Una guida indica gli alberi autunnali mentre tre bambini con lo zaino ascoltano"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -193,7 +220,16 @@
           "La sorella di Luca pensa che il suo hobby sia disgustoso — e anche questo a Luca piace!"
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-073.svg",
+          "alt": {
+            "en": "Three jars with holes in the lids, holding a ladybug, a caterpillar and a beetle, next to a magnifying glass",
+            "pt": "Três potes com furinhos na tampa, com uma joaninha, uma lagarta e um besouro, ao lado de uma lupa",
+            "it": "Tre barattoli con i buchi nel coperchio, con una coccinella, un bruco e uno scarabeo, accanto a una lente d'ingrandimento"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -253,7 +289,16 @@
           "Ti è mai capitato di sentire un odore e avere l'impressione di sentirne già il sapore?"
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-074.svg",
+          "alt": {
+            "en": "A child smells a steaming bowl of food; around it, salt, candy, lemon and coffee",
+            "pt": "Uma criança sente o cheiro de uma tigela de comida quentinha; em volta, sal, bala, limão e café",
+            "it": "Un bambino sente il profumo di una ciotola di cibo caldo; intorno, sale, caramella, limone e caffè"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -316,7 +361,16 @@
           "Ma Marco rispose: «Non dimenticherò mai il giorno in cui ho visto volare un cavallo.»"
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-075.svg",
+          "alt": {
+            "en": "A white horse with a long mane flies among the clouds while a boy points at it",
+            "pt": "Um cavalo branco de crina longa voa entre as nuvens enquanto um menino aponta para ele",
+            "it": "Un cavallo bianco dalla lunga criniera vola tra le nuvole mentre un bambino lo indica"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -376,7 +430,16 @@
           "A Giuseppe piace tantissimo regalare quello che coltiva alla famiglia e agli amici."
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-076.svg",
+          "alt": {
+            "en": "An old man waters his garden of flowers and carrots; a big watermelon has a blue prize ribbon",
+            "pt": "Um senhor rega o jardim de flores e cenouras; uma melancia grande tem uma fita azul de prêmio",
+            "it": "Un signore anziano annaffia il giardino di fiori e carote; una grande anguria ha una coccarda blu"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -436,7 +499,16 @@
           "A molte persone piace ascoltare i colibrì."
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-077.svg",
+          "alt": {
+            "en": "A hummingbird beats its wings next to a red feeder outside the window",
+            "pt": "Um beija-flor bate as asas perto de um bebedouro vermelho do lado de fora da janela",
+            "it": "Un colibrì sbatte le ali vicino a una mangiatoia rossa fuori dalla finestra"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -493,7 +565,16 @@
           "Sulla piuma c'era un bigliettino: «Attenzione. Questa è una piuma magica!»"
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-078.svg",
+          "alt": {
+            "en": "Seven sisters look up at a white feather with a note falling from the sky",
+            "pt": "Sete irmãs olham para cima, para uma pena branca com um bilhete caindo do céu",
+            "it": "Sette sorelle guardano in alto una piuma bianca con un bigliettino che cade dal cielo"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -553,7 +634,16 @@
           "Era ora che saltellasse in giro da sola."
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-079.svg",
+          "alt": {
+            "en": "A mother kangaroo and her baby, who hops away on her own",
+            "pt": "Uma mamãe canguru e sua filhote, que sai pulando sozinha",
+            "it": "Una mamma canguro e la sua cucciola, che si allontana saltellando da sola"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",
@@ -616,7 +706,16 @@
           "Abbiamo ossa nelle braccia, nelle gambe, nella testa, nelle dita delle mani e dei piedi."
         ]
       },
-      "images": [],
+      "images": [
+        {
+          "src": "assets/stories/card-080.svg",
+          "alt": {
+            "en": "A friendly skeleton waves, showing the bones of the head, arms, legs, fingers and toes",
+            "pt": "Um esqueleto simpático acena, mostrando os ossos da cabeça, dos braços, das pernas e dos dedos",
+            "it": "Uno scheletro simpatico saluta, mostrando le ossa di testa, braccia, gambe e dita"
+          }
+        }
+      ],
       "options": [
         {
           "id": "a",

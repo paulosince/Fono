@@ -23,7 +23,7 @@ Cada história:
 | `card` | Número impresso no card físico (aparece na lista). |
 | `title.{en,pt,it}` | Título. |
 | `text.{en,pt,it}` | Lista de parágrafos (um item por frase/parágrafo). |
-| `images[]` | Opcional. `src` (caminho relativo, ex.: `images/story-001/1.png`) e `alt.{en,pt,it}`. |
+| `images[]` | `src` (ex.: `assets/stories/card-073.svg`) e `alt.{en,pt,it}`. A primeira imagem é o verso do card. |
 | `options[]` | Exatamente 3 alternativas: `id` (`a`/`b`/`c`, mesma letra do card físico) e `text.{en,pt,it}`. A ordem é embaralhada sempre que a história é aberta. |
 | `correctOptionId` | `id` da alternativa correta. |
 
@@ -41,9 +41,16 @@ PWA em HTML, CSS e JavaScript vanilla, sem dependências nem build.
   (e inclua arquivos novos, como imagens, em `APP_SHELL`).
 - `manifest.webmanifest` e `assets/icons/`: instalação como app.
 - `assets/flags/`: bandeiras em SVG (emojis de bandeira não aparecem no Windows).
+- `assets/stories/`: ilustrações (verso dos cards), em SVG.
+- `assets/fonts/`: fonte Atkinson Hyperlegible (licença SIL OFL, em `OFL.txt`).
 
 Comportamento:
 
+- Tela inicial: baralho com as ilustrações para cima. Deslizar para a esquerda
+  ou direita manda a carta de cima para o fim do baralho (setas ‹ › e teclado
+  também funcionam). Tocar abre a história.
+- Telas a partir de 860 px: ilustração ao lado da história; abaixo disso, acima.
+- As 3 alternativas ficam lado a lado, como botões.
 - Alternativas embaralhadas a cada abertura da história.
 - Resposta errada: botão fica rosado e, com animações ligadas, vibra. Pode-se
   tentar até acertar.
