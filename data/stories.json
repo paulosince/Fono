@@ -2,9 +2,21 @@
   "schemaVersion": 1,
   "defaultLanguage": "en",
   "languages": [
-    { "code": "en", "label": "English", "flag": "🇬🇧" },
-    { "code": "pt", "label": "Português", "flag": "🇧🇷" },
-    { "code": "it", "label": "Italiano", "flag": "🇮🇹" }
+    {
+      "code": "en",
+      "label": "English",
+      "flag": "assets/flags/gb.svg"
+    },
+    {
+      "code": "pt",
+      "label": "Português",
+      "flag": "assets/flags/br.svg"
+    },
+    {
+      "code": "it",
+      "label": "Italiano",
+      "flag": "assets/flags/it.svg"
+    }
   ],
   "ui": {
     "en": {
@@ -59,16 +71,7 @@
           "La sera il cane è tornato a casa e Tom gli ha dato un grande abbraccio."
         ]
       },
-      "images": [
-        {
-          "src": "images/exemplo/exemplo-001-1.png",
-          "alt": {
-            "en": "A dog running out of an open gate",
-            "pt": "Um cachorro saindo por um portão aberto",
-            "it": "Un cane che esce da un cancello aperto"
-          }
-        }
-      ],
+      "images": [],
       "options": [
         {
           "id": "a",

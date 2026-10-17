@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fono — Stories</title>
+  <meta name="description" content="Stories and main idea: activity for speech therapy sessions.">
+  <meta name="theme-color" content="#2f7f86">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Fono">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button type="button" class="back" id="back" hidden>
+      <span aria-hidden="true">‹</span> <span data-ui="back"></span>
+    </button>
+    <div class="controls">
+      <div class="langs" id="langs" role="group" aria-label="Language"></div>
+      <label class="switch">
+        <input type="checkbox" id="anim-toggle" checked>
+        <span class="switch-track" aria-hidden="true"><span class="switch-thumb"></span></span>
+        <span class="switch-label" data-ui="animations"></span>
+      </label>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="list-view" class="view">
+      <h1 data-ui="chooseStory"></h1>
+      <ul class="story-grid" id="story-grid"></ul>
+    </section>
+
+    <section id="story-view" class="view" hidden>
+      <article class="story">
+        <h1 id="story-title"></h1>
+        <div class="story-images" id="story-images"></div>
+        <div class="story-text" id="story-text"></div>
+      </article>
+      <h2 class="question" data-ui="question"></h2>
+      <div class="options" id="options"></div>
+      <p class="feedback" id="feedback" aria-live="polite"></p>
+    </section>
+
+    <p class="load-error" id="load-error" hidden>Could not load stories.</p>
+  </main>
+
+  <div class="confetti" id="confetti" aria-hidden="true"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
