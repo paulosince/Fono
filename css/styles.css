@@ -13,23 +13,38 @@
 }
 
 :root {
-  --bg: #f4efe6;
-  --text: #2b2b2b;
-  --muted: #6b6b6b;
-  --primary: #3d5a80;
-  --border: #e3ddd3;
+  /* Clinic palette. Contrast checked against WCAG 2 (ratios in comments).
+     Brand gold and orange are never used for small text: use the -text tones. */
+  --green: #006039;         /* brand, darkest green: titles, main buttons (7.4:1 on cream) */
+  --green-light: #1A7F4F;   /* "well done" state (white text on it: 5.0:1) */
+  --green-soft: #E3F1E9;    /* selected / correct background (green on it: 6.6:1) */
+  --gold: #BA8F2E;          /* brand: borders and highlights only */
+  --gold-text: #80611A;     /* gold for small text (5.6:1 on cream) */
+  --gold-soft: #F6EDD6;     /* tips for parents */
+  --orange: #D4643E;        /* brand: "try again" border and icons only */
+  --orange-text: #B04A27;   /* orange for small text (5.3:1 on cream) */
+  --orange-soft: #FBE7DE;   /* "try again" background */
+
+  --bg: #FDFBF5;            /* cream page background */
+  --surface: #FFFFFF;       /* cards */
+  --text: #1E2A24;          /* main text (14.4:1 on cream) */
+  --muted: #55605A;         /* secondary text (6.3:1 on cream) */
+  --border: #EADFC6;        /* separates white cards from the cream page */
+  --primary: var(--green);
 
   /* Card (softened version of the physical card) */
-  --frame: #e07a5f;
-  --panel: #fffaf2;
-  --inner-line: #f2cc8f;
-  --pill: #3d5a80;
-  --letter: #e4dfd7;
+  --frame: var(--green);
+  --panel: var(--surface);
+  --inner-line: var(--gold);
+  --pill: var(--green);
+  --letter: var(--green-soft);
+  --letter-text: var(--green);
 
-  --correct: #2e8b57;
-  --correct-soft: #dff3e6;
-  --wrong: #d98a8a;
-  --wrong-soft: #fbe3e3;
+  --correct: var(--green-light);
+  --correct-soft: var(--green-soft);
+  --wrong: var(--orange);
+  --wrong-strong: var(--orange-text);
+  --wrong-soft: var(--orange-soft);
 
   --topbar-h: 64px;
   --font: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
@@ -67,7 +82,7 @@ button { font: inherit; color: inherit; }
   gap: 12px;
   min-height: var(--topbar-h);
   padding: calc(10px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right)) 10px calc(16px + env(safe-area-inset-left));
-  background: rgba(244, 239, 230, 0.95);
+  background: rgba(253, 251, 245, 0.95);
 }
 
 .controls {
@@ -85,7 +100,8 @@ button { font: inherit; color: inherit; }
   padding: 0 14px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: #fff;
+  background: var(--surface);
+  color: var(--green);
   cursor: pointer;
   white-space: nowrap;
 }
@@ -110,7 +126,7 @@ button { font: inherit; color: inherit; }
 
 .lang img { width: 36px; height: 24px; border-radius: 3px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12); }
 
-.lang[aria-pressed="true"] { opacity: 1; border-color: var(--primary); background: #fff; }
+.lang[aria-pressed="true"] { opacity: 1; border-color: var(--primary); background: var(--surface); }
 
 .lang:active { transform: scale(0.94); }
 
@@ -131,7 +147,7 @@ button { font: inherit; color: inherit; }
   width: 48px;
   height: 28px;
   border-radius: 999px;
-  background: #c9c3b8;
+  background: #CDC4AF;
   transition: background 0.2s;
 }
 
@@ -205,7 +221,7 @@ main {
   min-width: 2.2em;
   padding: 0 6px;
   border-radius: 999px;
-  background: rgba(255, 250, 242, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 700;
@@ -277,7 +293,8 @@ main {
   height: 52px;
   border: 1px solid var(--border);
   border-radius: 50%;
-  background: #fff;
+  background: var(--surface);
+  color: var(--green);
   font-size: 2rem;
   line-height: 1;
   cursor: pointer;
@@ -342,7 +359,7 @@ main {
   padding: 12px 8px 14px;
   border: 2px solid var(--border);
   border-radius: 16px;
-  background: #fff;
+  background: var(--surface);
   font-size: clamp(0.95rem, 0.8rem + 0.5vw, 1.2rem);
   line-height: 1.3;
   text-align: center;
@@ -350,7 +367,7 @@ main {
   transition: transform 0.15s, background-color 0.35s, border-color 0.35s;
 }
 
-.option:hover:not(:disabled) { border-color: var(--pill); }
+.option:hover:not(:disabled) { border-color: var(--gold); }
 .option:active:not(:disabled) { transform: scale(0.97); }
 .option:disabled { cursor: default; color: inherit; }
 
@@ -362,7 +379,7 @@ main {
   height: 38px;
   border-radius: 50%;
   background: var(--letter);
-  color: #444;
+  color: var(--letter-text);
   font-weight: 700;
   transition: background-color 0.35s, color 0.35s;
 }
@@ -373,7 +390,7 @@ main {
   animation: shake 0.45s ease-in-out;
 }
 
-.option.is-wrong .option-letter { background: var(--wrong); color: #fff; }
+.option.is-wrong .option-letter { background: var(--wrong-strong); color: #fff; }
 
 .option.is-correct {
   background: var(--correct-soft);
@@ -392,9 +409,15 @@ main {
 }
 
 .feedback.is-correct { color: var(--correct); }
-.feedback.is-wrong { color: #b65c5c; }
+.feedback.is-wrong { color: var(--wrong-strong); }
 
-.load-error { color: #b65c5c; text-align: center; }
+/* Feedback never relies on color alone: icon + text (WCAG 1.4.1) */
+.feedback { display: flex; align-items: center; justify-content: center; gap: 8px; }
+
+.icon { flex: none; width: 1em; height: 1em; }
+.option-letter .icon { width: 22px; height: 22px; }
+
+.load-error { color: var(--orange-text); text-align: center; }
 
 button:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
 

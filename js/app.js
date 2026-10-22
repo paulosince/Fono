@@ -1,7 +1,14 @@
 (function () {
   'use strict';
 
-  var CONFETTI_COLORS = ['#f2b45a', '#3d5a80', '#e07a5f', '#7fb77e', '#8d7fd0', '#f4d35e'];
+  var CONFETTI_COLORS = ['#006039', '#1A7F4F', '#BA8F2E', '#D4643E', '#F6EDD6'];
+
+  // Simple stroke icons, so feedback never relies on color alone.
+  var ICONS = {
+    check: ['M5 12.5l4.5 4.5L19 7.5'],
+    cross: ['M7 7l10 10', 'M17 7L7 17'],
+    retry: ['M19.5 12a7.5 7.5 0 1 1-2.2-5.3', 'M19.5 4.5v4.5H15']
+  };
   var CONFETTI_COUNT = 90;
   var TAP_SLOP = 8;          // px of movement still treated as a tap
   var SWIPE_MIN = 60;        // px, or 22% of the card width, whichever is larger
@@ -64,6 +71,32 @@
       if (state.story.options[i].id === id) return state.story.options[i];
     }
     return null;
+  }
+
+  function icon(name) {
+    var ns = 'http://www.w3.org/2000/svg';
+    var svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('viewBox', '0 0 24 24');
+    svg.setAttribute('class', 'icon');
+    svg.setAttribute('aria-hidden', 'true');
+    svg.setAttribute('focusable', 'false');
+    svg.setAttribute('fill', 'none');
+    svg.setAttribute('stroke', 'currentColor');
+    svg.setAttribute('stroke-width', '2.6');
+    svg.setAttribute('stroke-linecap', 'round');
+    svg.setAttribute('stroke-linejoin', 'round');
+    ICONS[name].forEach(function (d) {
+      var path = document.createElementNS(ns, 'path');
+      path.setAttribute('d', d);
+      svg.appendChild(path);
+    });
+    return svg;
+  }
+
+  function setLetterIcon(btn, name) {
+    var letter = btn.querySelector('.option-letter');
+    letter.textContent = '';
+    letter.appendChild(icon(name));
   }
 
   function mainImage(story) {
@@ -290,14 +323,20 @@
 
   function renderFeedback() {
     el.feedback.className = 'feedback';
+    el.feedback.textContent = '';
+    var key = null, name = null;
     if (state.solved) {
-      el.feedback.textContent = t('correct');
+      key = 'correct'; name = 'check';
       el.feedback.classList.add('is-correct');
     } else if (state.wrong.length) {
-      el.feedback.textContent = t('tryAgain');
+      key = 'tryAgain'; name = 'retry';
       el.feedback.classList.add('is-wrong');
-    } else {
-      el.feedback.textContent = '';
+    }
+    if (key) {
+      el.feedback.appendChild(icon(name));
+      var text = document.createElement('span');
+      text.textContent = t(key);
+      el.feedback.appendChild(text);
     }
   }
 
@@ -306,10 +345,12 @@
     if (animate) void btn.offsetWidth; // restart the CSS animation
     btn.classList.add('is-wrong');
     btn.disabled = true;
+    setLetterIcon(btn, 'cross');
   }
 
   function markCorrect(btn) {
     btn.classList.add('is-correct');
+    setLetterIcon(btn, 'check');
   }
 
   function answer(id, btn) {

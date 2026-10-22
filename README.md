@@ -52,9 +52,30 @@ Comportamento:
 - Telas a partir de 860 px: ilustração ao lado da história; abaixo disso, acima.
 - As 3 alternativas ficam lado a lado, como botões.
 - Alternativas embaralhadas a cada abertura da história.
-- Resposta errada: botão fica rosado e, com animações ligadas, vibra. Pode-se
-  tentar até acertar.
-- Resposta certa: botão fica verde e, com animações ligadas, cai confete.
+- Resposta errada: botão ganha borda laranja e um ✕ no lugar da letra; abaixo
+  aparece "Vamos tentar de novo" com um ícone de seta circular. Com animações
+  ligadas, o botão vibra. Pode-se tentar até acertar.
+- Resposta certa: botão fica verde com um ✓ no lugar da letra; abaixo aparece
+  "Muito bem!" com o mesmo ✓. Com animações ligadas, cai confete.
+- O retorno nunca depende só da cor (ícone + texto), para quem tem daltonismo
+  e para quando as animações estão desligadas.
+
+### Cores
+
+Paleta da clínica, definida como variáveis no início de `css/styles.css`
+(contraste conferido pela WCAG 2; razões anotadas no próprio arquivo):
+
+| Papel | Cor |
+|---|---|
+| Verde da marca (títulos, botões, moldura) | `#006039` |
+| Verde claro ("Muito bem!") | `#1A7F4F` |
+| Dourado da marca (bordas e destaques, nunca texto) | `#BA8F2E` |
+| Laranja da marca ("tente de novo", nunca texto pequeno) | `#D4643E` |
+| Fundo creme / cartões | `#FDFBF5` / `#FFFFFF` |
+| Texto principal / secundário | `#1E2A24` / `#55605A` |
+| Dourado e laranja para texto pequeno | `#80611A` / `#B04A27` |
+| Fundos suaves (verde, dourado, laranja) | `#E3F1E9` / `#F6EDD6` / `#FBE7DE` |
+| Borda dos cartões | `#EADFC6` |
 - Toggle de animações desliga todas as animações/transições CSS. Começa
   desligado se o sistema estiver com "reduzir movimento" ativo.
 - Nenhuma preferência ou dado é salvo; idioma e animações voltam ao padrão
