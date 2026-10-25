@@ -31,6 +31,34 @@ O texto original é o inglês (`en`); `pt` e `it` são traduções armazenadas n
 próprio JSON, para que a troca de idioma funcione sem internet. Nas traduções,
 nomes de pessoas (e moeda) foram adaptados para nomes comuns no Brasil e na Itália.
 
+## Novas histórias: `data/historias.json` (em validação)
+
+Histórias originais, escritas em cenas, que vão substituir as de `stories.json`.
+Cada história alimenta cinco atividades: ideia principal, moral, ordenar as cenas,
+partes da história e "o que houve antes / o que vem depois". Ainda não é usado
+pelo app: o conteúdo está em revisão pela terapeuta, e as ilustrações das cenas
+vêm depois.
+
+Idiomas: `pt` (original), `en` e `it`. Nomes de pessoas foram adaptados quando
+necessário (Davi → David → Davide, Rafael → Raffaele, Theo → Teo, Ana → Anna).
+
+Regra geral: **em toda lista de 3 opções, a primeira é a correta**. O app embaralha
+a ordem ao mostrar.
+
+| Campo | Descrição |
+|---|---|
+| `id` | `h01` a `h10`. |
+| `level` | 1, 2 ou 3. As idades sugeridas ficam em `levels` (3-6, 5-9, 8-12); quem decide é a terapeuta. |
+| `theme` | O que a história trabalha (ex.: pedir ajuda, esperar a vez). Ajuda a terapeuta a escolher. |
+| `title` | Título. |
+| `scenes[]` | De 4 a 6 cenas, em ordem. Usadas para ler e para ordenar. |
+| `short` | 3 índices de `scenes` para a versão curta (começo, problema, solução), para as menores. |
+| `parts.who / where / problem / solution` | Partes da história: quem, onde, problema e solução. 3 opções cada. |
+| `mainIdea` | Ideia principal. As opções erradas são detalhes verdadeiros da história. |
+| `moral` | A lição da história (mais abstrata que a ideia principal). |
+| `before.startAt` | Índice da cena em que a história começa; a criança diz o que aconteceu antes. |
+| `after.hideFrom` | Índice a partir do qual as cenas ficam escondidas; a criança diz o que vem depois. |
+
 ## Aplicação
 
 PWA em HTML, CSS e JavaScript vanilla, sem dependências nem build.
