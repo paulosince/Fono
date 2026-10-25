@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 2,
+  "languages": ["pt", "en", "it"],
+  "levels": {
+    "1": { "ages": "3-6", "pt": "Nível 1", "en": "Level 1", "it": "Livello 1" },
+    "2": { "ages": "5-9", "pt": "Nível 2", "en": "Level 2", "it": "Livello 2" },
+    "3": { "ages": "8-12", "pt": "Nível 3", "en": "Level 3", "it": "Livello 3" }
+  },
+  "stories": [
+    {
+      "id": "h01",
+      "level": 1,
+      "theme": { "pt": "Consertar um erro", "en": "Fixing a mistake", "it": "Rimediare a un errore" },
+      "title": { "pt": "O suco da Lia", "en": "Lia's Juice", "it": "Il succo di Lia" },
+      "scenes": [
+        { "pt": "Lia estava tomando suco de laranja na mesa.", "en": "Lia was drinking orange juice at the table.", "it": "Lia stava bevendo un succo d'arancia a tavola." },
+        { "pt": "Sem querer, ela bateu no copo, e o suco derramou.", "en": "By accident, she knocked the glass, and the juice spilled.", "it": "Senza volerlo, ha urtato il bicchiere e il succo si è rovesciato." },
+        { "pt": "Lia pegou um pano e limpou a mesa.", "en": "Lia got a cloth and wiped the table.", "it": "Lia ha preso uno straccio e ha pulito il tavolo." },
+        { "pt": "A mamãe colocou mais suco no copo, e Lia sorriu.", "en": "Mom poured more juice into the glass, and Lia smiled.", "it": "La mamma ha versato altro succo nel bicchiere e Lia ha sorriso." }
+      ],
+      "short": [0, 1, 2],
+      "parts": {
+        "who": [
+          { "pt": "Lia e a mamãe", "en": "Lia and Mom", "it": "Lia e la mamma" },
+          { "pt": "Lia e o vovô", "en": "Lia and Grandpa", "it": "Lia e il nonno" },
+          { "pt": "Um menino e o cachorro", "en": "A boy and a dog", "it": "Un bambino e il cane" }
+        ],
+        "where": [
+          { "pt": "Na mesa", "en": "At the table", "it": "A tavola" },
+          { "pt": "Na piscina", "en": "At the pool", "it": "In piscina" },
+          { "pt": "No ônibus", "en": "On the bus", "it": "Sull'autobus" }
+        ],
+        "problem": [
+          { "pt": "O suco derramou", "en": "The juice spilled", "it": "Il succo si è rovesciato" },
+          { "pt": "O copo quebrou", "en": "The glass broke", "it": "Il bicchiere si è rotto" },
+          { "pt": "O suco acabou", "en": "The juice ran out", "it": "Il succo è finito" }
+        ],
+        "solution": [
+          { "pt": "Lia limpou a mesa com um pano", "en": "Lia wiped the table with a cloth", "it": "Lia ha pulito il tavolo con uno straccio" },
+          { "pt": "Lia escondeu o copo", "en": "Lia hid the glass", "it": "Lia ha nascosto il bicchiere" },
+          { "pt": "Lia foi dormir", "en": "Lia went to sleep", "it": "Lia è andata a dormire" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Lia derramou o suco e limpou a mesa.", "en": "Lia spilled her juice and wiped the table.", "it": "Lia ha rovesciato il succo e ha pulito il tavolo." },
+        { "pt": "O suco era de laranja.", "en": "The juice was orange juice.", "it": "Il succo era d'arancia." },
+        { "pt": "Lia gosta de sorrir.", "en": "Lia likes to smile.", "it": "A Lia piace sorridere." }
+      ],
+      "moral": [
+        { "pt": "Quando fazemos uma bagunça sem querer, podemos arrumar.", "en": "When we make a mess by accident, we can clean it up.", "it": "Quando facciamo un pasticcio senza volerlo, possiamo rimediare." },
+        { "pt": "Nunca devemos tomar suco.", "en": "We should never drink juice.", "it": "Non dobbiamo mai bere il succo." },
+        { "pt": "Copos são perigosos.", "en": "Glasses are dangerous.", "it": "I bicchieri sono pericolosi." }
+      ],
+      "before": {
+        "startAt": 2,
+        "options": [
+          { "pt": "O suco derramou na mesa.", "en": "The juice spilled on the table.", "it": "Il succo si è rovesciato sul tavolo." },
+          { "pt": "Lia foi tomar banho.", "en": "Lia went to take a bath.", "it": "Lia è andata a fare il bagno." },
+          { "pt": "A mamãe comprou um bolo.", "en": "Mom bought a cake.", "it": "La mamma ha comprato una torta." }
+        ]
+      },
+      "after": {
+        "hideFrom": 3,
+        "options": [
+          { "pt": "A mamãe colocou mais suco, e Lia ficou feliz.", "en": "Mom poured more juice, and Lia was happy.", "it": "La mamma ha versato altro succo e Lia era contenta." },
+          { "pt": "Lia derramou tudo de novo.", "en": "Lia spilled everything again.", "it": "Lia ha rovesciato tutto di nuovo." },
+          { "pt": "Lia foi para a escola.", "en": "Lia went to school.", "it": "Lia è andata a scuola." }
+        ]
+      }
+    },
+    {
+      "id": "h02",
+      "level": 1,
+      "theme": { "pt": "Tentar de novo", "en": "Trying again", "it": "Riprovare" },
+      "title": { "pt": "A torre do Leo", "en": "Leo's Tower", "it": "La torre di Leo" },
+      "scenes": [
+        { "pt": "Na sala, Leo fez uma torre bem alta com blocos.", "en": "In the living room, Leo built a very tall tower with blocks.", "it": "In salotto, Leo ha costruito una torre altissima con i blocchi." },
+        { "pt": "A torre balançou e caiu no chão.", "en": "The tower wobbled and fell to the floor.", "it": "La torre ha traballato ed è caduta per terra." },
+        { "pt": "Leo ficou bravo, respirou fundo e começou de novo.", "en": "Leo felt angry, took a deep breath and started again.", "it": "Leo si è arrabbiato, ha fatto un respiro profondo e ha ricominciato." },
+        { "pt": "Dessa vez, ele colocou os blocos grandes embaixo, e a torre ficou de pé.", "en": "This time, he put the big blocks at the bottom, and the tower stayed up.", "it": "Questa volta ha messo i blocchi grandi sotto e la torre è rimasta in piedi." }
+      ],
+      "short": [0, 1, 3],
+      "parts": {
+        "who": [
+          { "pt": "Leo", "en": "Leo", "it": "Leo" },
+          { "pt": "A professora", "en": "The teacher", "it": "La maestra" },
+          { "pt": "Um cachorro", "en": "A dog", "it": "Un cane" }
+        ],
+        "where": [
+          { "pt": "Na sala", "en": "In the living room", "it": "In salotto" },
+          { "pt": "No jardim", "en": "In the garden", "it": "In giardino" },
+          { "pt": "Na cozinha", "en": "In the kitchen", "it": "In cucina" }
+        ],
+        "problem": [
+          { "pt": "A torre caiu", "en": "The tower fell down", "it": "La torre è caduta" },
+          { "pt": "Os blocos sumiram", "en": "The blocks disappeared", "it": "I blocchi sono spariti" },
+          { "pt": "Leo se machucou", "en": "Leo got hurt", "it": "Leo si è fatto male" }
+        ],
+        "solution": [
+          { "pt": "Leo colocou os blocos grandes embaixo", "en": "Leo put the big blocks at the bottom", "it": "Leo ha messo i blocchi grandi sotto" },
+          { "pt": "Leo jogou os blocos fora", "en": "Leo threw the blocks away", "it": "Leo ha buttato via i blocchi" },
+          { "pt": "Leo parou de brincar", "en": "Leo stopped playing", "it": "Leo ha smesso di giocare" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "A torre do Leo caiu, e ele tentou de novo.", "en": "Leo's tower fell, and he tried again.", "it": "La torre di Leo è caduta e lui ha riprovato." },
+        { "pt": "Leo tem blocos.", "en": "Leo has blocks.", "it": "Leo ha dei blocchi." },
+        { "pt": "A torre era alta.", "en": "The tower was tall.", "it": "La torre era alta." }
+      ],
+      "moral": [
+        { "pt": "Quando algo dá errado, podemos tentar de novo.", "en": "When something goes wrong, we can try again.", "it": "Quando qualcosa va storto, possiamo riprovare." },
+        { "pt": "Torres sempre caem.", "en": "Towers always fall down.", "it": "Le torri cadono sempre." },
+        { "pt": "Não devemos brincar com blocos.", "en": "We shouldn't play with blocks.", "it": "Non dobbiamo giocare con i blocchi." }
+      ],
+      "before": {
+        "startAt": 2,
+        "options": [
+          { "pt": "A torre caiu no chão.", "en": "The tower fell to the floor.", "it": "La torre è caduta per terra." },
+          { "pt": "Leo ganhou um bolo.", "en": "Leo got a cake.", "it": "Leo ha ricevuto una torta." },
+          { "pt": "Leo foi ao parque.", "en": "Leo went to the park.", "it": "Leo è andato al parco." }
+        ]
+      },
+      "after": {
+        "hideFrom": 3,
+        "options": [
+          { "pt": "Leo fez a torre de novo, e ela ficou de pé.", "en": "Leo built the tower again, and it stayed up.", "it": "Leo ha rifatto la torre ed è rimasta in piedi." },
+          { "pt": "Leo nunca mais brincou.", "en": "Leo never played again.", "it": "Leo non ha mai più giocato." },
+          { "pt": "Leo deu os blocos para o gato.", "en": "Leo gave the blocks to the cat.", "it": "Leo ha dato i blocchi al gatto." }
+        ]
+      }
+    },
+    {
+      "id": "h03",
+      "level": 1,
+      "theme": { "pt": "Perceber o outro", "en": "Noticing others", "it": "Accorgersi degli altri" },
+      "title": { "pt": "O gato da Nina", "en": "Nina's Cat", "it": "Il gatto di Nina" },
+      "scenes": [
+        { "pt": "Na cozinha, o gato da Nina miava sem parar.", "en": "In the kitchen, Nina's cat kept meowing.", "it": "In cucina, il gatto di Nina miagolava senza smettere." },
+        { "pt": "Nina olhou e viu que o pote de comida dele estava vazio.", "en": "Nina looked and saw that his food bowl was empty.", "it": "Nina ha guardato e ha visto che la sua ciotola era vuota." },
+        { "pt": "Nina colocou ração no pote.", "en": "Nina put cat food in the bowl.", "it": "Nina ha messo le crocchette nella ciotola." },
+        { "pt": "O gato comeu tudo e depois deitou no colo da Nina.", "en": "The cat ate it all and then lay down on Nina's lap.", "it": "Il gatto ha mangiato tutto e poi si è sdraiato in braccio a Nina." }
+      ],
+      "short": [0, 2, 3],
+      "parts": {
+        "who": [
+          { "pt": "Nina e o gato", "en": "Nina and her cat", "it": "Nina e il gatto" },
+          { "pt": "Nina e o cachorro", "en": "Nina and a dog", "it": "Nina e il cane" },
+          { "pt": "Leo e um passarinho", "en": "Leo and a little bird", "it": "Leo e un uccellino" }
+        ],
+        "where": [
+          { "pt": "Na cozinha", "en": "In the kitchen", "it": "In cucina" },
+          { "pt": "No quarto", "en": "In the bedroom", "it": "In camera" },
+          { "pt": "Na rua", "en": "On the street", "it": "Per strada" }
+        ],
+        "problem": [
+          { "pt": "O gato estava com fome", "en": "The cat was hungry", "it": "Il gatto aveva fame" },
+          { "pt": "O gato estava doente", "en": "The cat was sick", "it": "Il gatto era malato" },
+          { "pt": "O gato fugiu", "en": "The cat ran away", "it": "Il gatto è scappato" }
+        ],
+        "solution": [
+          { "pt": "Nina colocou ração no pote", "en": "Nina put food in the bowl", "it": "Nina ha messo le crocchette nella ciotola" },
+          { "pt": "Nina deu banho no gato", "en": "Nina gave the cat a bath", "it": "Nina ha fatto il bagno al gatto" },
+          { "pt": "Nina fechou a porta", "en": "Nina closed the door", "it": "Nina ha chiuso la porta" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Nina percebeu que o gato estava com fome e deu comida.", "en": "Nina noticed her cat was hungry and fed him.", "it": "Nina si è accorta che il gatto aveva fame e gli ha dato da mangiare." },
+        { "pt": "O gato mia.", "en": "The cat meows.", "it": "Il gatto miagola." },
+        { "pt": "O gato deita no colo.", "en": "The cat lies on laps.", "it": "Il gatto si sdraia in braccio." }
+      ],
+      "moral": [
+        { "pt": "Quando prestamos atenção, descobrimos do que o outro precisa.", "en": "When we pay attention, we find out what others need.", "it": "Quando facciamo attenzione, scopriamo di cosa hanno bisogno gli altri." },
+        { "pt": "Gatos fazem muito barulho.", "en": "Cats are very noisy.", "it": "I gatti fanno tanto rumore." },
+        { "pt": "Gatos comem demais.", "en": "Cats eat too much.", "it": "I gatti mangiano troppo." }
+      ],
+      "before": {
+        "startAt": 2,
+        "options": [
+          { "pt": "O gato miava, e o pote estava vazio.", "en": "The cat was meowing, and the bowl was empty.", "it": "Il gatto miagolava e la ciotola era vuota." },
+          { "pt": "O gato estava dormindo.", "en": "The cat was sleeping.", "it": "Il gatto stava dormendo." },
+          { "pt": "Nina estava na escola.", "en": "Nina was at school.", "it": "Nina era a scuola." }
+        ]
+      },
+      "after": {
+        "hideFrom": 3,
+        "options": [
+          { "pt": "O gato comeu e deitou no colo da Nina.", "en": "The cat ate and lay down on Nina's lap.", "it": "Il gatto ha mangiato e si è sdraiato in braccio a Nina." },
+          { "pt": "O gato continuou miando.", "en": "The cat kept on meowing.", "it": "Il gatto ha continuato a miagolare." },
+          { "pt": "O gato saiu correndo.", "en": "The cat ran off.", "it": "Il gatto è scappato via." }
+        ]
+      }
+    },
+    {
+      "id": "h04",
+      "level": 2,
+      "theme": { "pt": "Pedir ajuda", "en": "Asking for help", "it": "Chiedere aiuto" },
+      "title": { "pt": "A pipa do Davi", "en": "David's Kite", "it": "L'aquilone di Davide" },
+      "scenes": [
+        { "pt": "Davi ganhou uma pipa amarela do avô.", "en": "David got a yellow kite from his grandpa.", "it": "Davide ha ricevuto un aquilone giallo dal nonno." },
+        { "pt": "No parque, o vento estava forte, e a pipa subiu bem alto.", "en": "At the park, the wind was strong, and the kite flew very high.", "it": "Al parco c'era molto vento e l'aquilone è salito altissimo." },
+        { "pt": "De repente, a linha escapou da mão do Davi.", "en": "Suddenly, the string slipped out of David's hand.", "it": "All'improvviso, il filo è scappato dalla mano di Davide." },
+        { "pt": "A pipa voou e ficou presa no galho de uma árvore.", "en": "The kite flew away and got stuck on a tree branch.", "it": "L'aquilone è volato via ed è rimasto impigliato sul ramo di un albero." },
+        { "pt": "Davi pediu ajuda ao guarda do parque, que pegou uma escada e tirou a pipa do galho.", "en": "David asked the park keeper for help, and he got a ladder and took the kite down from the branch.", "it": "Davide ha chiesto aiuto al custode del parco, che ha preso una scala e ha tolto l'aquilone dal ramo." },
+        { "pt": "Davi agradeceu e, dessa vez, segurou a linha com as duas mãos.", "en": "David said thank you and, this time, held the string with both hands.", "it": "Davide ha ringraziato e, questa volta, ha tenuto il filo con tutte e due le mani." }
+      ],
+      "short": [0, 3, 4],
+      "parts": {
+        "who": [
+          { "pt": "Davi e o guarda do parque", "en": "David and the park keeper", "it": "Davide e il custode del parco" },
+          { "pt": "Davi e a professora", "en": "David and his teacher", "it": "Davide e la maestra" },
+          { "pt": "Uma menina e o pai", "en": "A girl and her dad", "it": "Una bambina e il papà" }
+        ],
+        "where": [
+          { "pt": "No parque", "en": "At the park", "it": "Al parco" },
+          { "pt": "Na escola", "en": "At school", "it": "A scuola" },
+          { "pt": "Na praia", "en": "At the beach", "it": "Al mare" }
+        ],
+        "problem": [
+          { "pt": "A pipa ficou presa numa árvore", "en": "The kite got stuck in a tree", "it": "L'aquilone è rimasto impigliato su un albero" },
+          { "pt": "A pipa rasgou", "en": "The kite tore", "it": "L'aquilone si è strappato" },
+          { "pt": "Não tinha vento", "en": "There was no wind", "it": "Non c'era vento" }
+        ],
+        "solution": [
+          { "pt": "O guarda tirou a pipa com uma escada", "en": "The park keeper used a ladder to get the kite", "it": "Il custode ha preso l'aquilone con una scala" },
+          { "pt": "Davi subiu na árvore", "en": "David climbed the tree", "it": "Davide si è arrampicato sull'albero" },
+          { "pt": "O vento soltou a pipa", "en": "The wind blew the kite free", "it": "Il vento ha liberato l'aquilone" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Davi perdeu a pipa e conseguiu ajuda para pegá-la de volta.", "en": "David lost his kite and got help to get it back.", "it": "Davide ha perso l'aquilone e ha trovato aiuto per riaverlo." },
+        { "pt": "A pipa do Davi era amarela.", "en": "David's kite was yellow.", "it": "L'aquilone di Davide era giallo." },
+        { "pt": "O vento estava forte no parque.", "en": "The wind was strong at the park.", "it": "Al parco c'era molto vento." }
+      ],
+      "moral": [
+        { "pt": "Quando temos um problema, podemos pedir ajuda.", "en": "When we have a problem, we can ask for help.", "it": "Quando abbiamo un problema, possiamo chiedere aiuto." },
+        { "pt": "Pipas são perigosas.", "en": "Kites are dangerous.", "it": "Gli aquiloni sono pericolosi." },
+        { "pt": "É melhor não brincar no parque.", "en": "It's better not to play at the park.", "it": "È meglio non giocare al parco." }
+      ],
+      "before": {
+        "startAt": 3,
+        "options": [
+          { "pt": "A linha escapou da mão do Davi.", "en": "The string slipped out of David's hand.", "it": "Il filo è scappato dalla mano di Davide." },
+          { "pt": "Davi jogou a pipa na árvore.", "en": "David threw the kite into the tree.", "it": "Davide ha lanciato l'aquilone sull'albero." },
+          { "pt": "Começou a chover.", "en": "It started to rain.", "it": "Ha cominciato a piovere." }
+        ]
+      },
+      "after": {
+        "hideFrom": 5,
+        "options": [
+          { "pt": "Davi voltou a brincar, segurando a linha com força.", "en": "David went back to playing, holding the string tight.", "it": "Davide è tornato a giocare, tenendo forte il filo." },
+          { "pt": "Davi deixou a pipa na árvore.", "en": "David left the kite in the tree.", "it": "Davide ha lasciato l'aquilone sull'albero." },
+          { "pt": "O guarda levou a pipa embora.", "en": "The park keeper took the kite away.", "it": "Il custode si è portato via l'aquilone." }
+        ]
+      }
+    },
+    {
+      "id": "h05",
+      "level": 2,
+      "theme": { "pt": "Mudança de planos", "en": "Change of plans", "it": "Cambio di programma" },
+      "title": { "pt": "O parquinho fechado", "en": "The Closed Playground", "it": "Il parco giochi chiuso" },
+      "scenes": [
+        { "pt": "Todo sábado, Sofia vai ao parquinho com o papai.", "en": "Every Saturday, Sofia goes to the playground with her dad.", "it": "Ogni sabato, Sofia va al parco giochi con il papà." },
+        { "pt": "Mas, neste sábado, o parquinho estava fechado para conserto.", "en": "But this Saturday, the playground was closed for repairs.", "it": "Ma questo sabato il parco giochi era chiuso per lavori." },
+        { "pt": "Sofia ficou triste e chorou, porque queria brincar no escorregador.", "en": "Sofia felt sad and cried, because she wanted to play on the slide.", "it": "Sofia si è sentita triste e ha pianto, perché voleva giocare sullo scivolo." },
+        { "pt": "O papai explicou que eles podiam ir à biblioteca hoje e voltar ao parquinho no próximo sábado.", "en": "Dad explained that they could go to the library today and come back to the playground next Saturday.", "it": "Il papà le ha spiegato che oggi potevano andare in biblioteca e tornare al parco giochi il sabato dopo." },
+        { "pt": "Na biblioteca, Sofia leu um livro sobre dinossauros e se divertiu.", "en": "At the library, Sofia read a book about dinosaurs and had fun.", "it": "In biblioteca, Sofia ha letto un libro sui dinosauri e si è divertita." }
+      ],
+      "short": [1, 3, 4],
+      "parts": {
+        "who": [
+          { "pt": "Sofia e o papai", "en": "Sofia and her dad", "it": "Sofia e il papà" },
+          { "pt": "Sofia e a vovó", "en": "Sofia and her grandma", "it": "Sofia e la nonna" },
+          { "pt": "Davi e o guarda do parque", "en": "David and the park keeper", "it": "Davide e il custode del parco" }
+        ],
+        "where": [
+          { "pt": "No parquinho e na biblioteca", "en": "At the playground and the library", "it": "Al parco giochi e in biblioteca" },
+          { "pt": "Na escola e no mercado", "en": "At school and the supermarket", "it": "A scuola e al supermercato" },
+          { "pt": "Na praia e no cinema", "en": "At the beach and the cinema", "it": "Al mare e al cinema" }
+        ],
+        "problem": [
+          { "pt": "O parquinho estava fechado", "en": "The playground was closed", "it": "Il parco giochi era chiuso" },
+          { "pt": "Sofia perdeu o sapato", "en": "Sofia lost her shoe", "it": "Sofia ha perso una scarpa" },
+          { "pt": "Estava chovendo muito", "en": "It was raining hard", "it": "Pioveva forte" }
+        ],
+        "solution": [
+          { "pt": "Eles foram à biblioteca", "en": "They went to the library", "it": "Sono andati in biblioteca" },
+          { "pt": "Eles pularam o portão", "en": "They climbed over the gate", "it": "Hanno scavalcato il cancello" },
+          { "pt": "Eles esperaram o dia todo na frente do portão", "en": "They waited all day in front of the gate", "it": "Hanno aspettato tutto il giorno davanti al cancello" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "O parquinho estava fechado, e Sofia encontrou outra coisa divertida para fazer.", "en": "The playground was closed, and Sofia found something else fun to do.", "it": "Il parco giochi era chiuso e Sofia ha trovato un'altra cosa divertente da fare." },
+        { "pt": "Sofia gosta de dinossauros.", "en": "Sofia likes dinosaurs.", "it": "A Sofia piacciono i dinosauri." },
+        { "pt": "O parquinho tem escorregador.", "en": "The playground has a slide.", "it": "Il parco giochi ha uno scivolo." }
+      ],
+      "moral": [
+        { "pt": "Quando os planos mudam, podemos encontrar outra coisa boa para fazer.", "en": "When plans change, we can find something else good to do.", "it": "Quando i programmi cambiano, possiamo trovare un'altra cosa bella da fare." },
+        { "pt": "Parquinhos são chatos.", "en": "Playgrounds are boring.", "it": "I parchi giochi sono noiosi." },
+        { "pt": "É melhor ficar sempre em casa.", "en": "It's better to always stay home.", "it": "È meglio restare sempre a casa." }
+      ],
+      "before": {
+        "startAt": 2,
+        "options": [
+          { "pt": "O parquinho estava fechado para conserto.", "en": "The playground was closed for repairs.", "it": "Il parco giochi era chiuso per lavori." },
+          { "pt": "Sofia caiu do escorregador.", "en": "Sofia fell off the slide.", "it": "Sofia è caduta dallo scivolo." },
+          { "pt": "O papai esqueceu a chave de casa.", "en": "Dad forgot the house key.", "it": "Il papà ha dimenticato le chiavi di casa." }
+        ]
+      },
+      "after": {
+        "hideFrom": 4,
+        "options": [
+          { "pt": "Sofia leu um livro na biblioteca e se divertiu.", "en": "Sofia read a book at the library and had fun.", "it": "Sofia ha letto un libro in biblioteca e si è divertita." },
+          { "pt": "Sofia brincou no escorregador naquele dia.", "en": "Sofia played on the slide that day.", "it": "Sofia ha giocato sullo scivolo quel giorno." },
+          { "pt": "O papai fechou a biblioteca.", "en": "Dad closed the library.", "it": "Il papà ha chiuso la biblioteca." }
+        ]
+      }
+    },
+    {
+      "id": "h06",
+      "level": 2,
+      "theme": { "pt": "Esperar a vez", "en": "Waiting your turn", "it": "Aspettare il proprio turno" },
+      "title": { "pt": "A vez do balanço", "en": "A Turn on the Swing", "it": "Il turno sull'altalena" },
+      "scenes": [
+        { "pt": "No parquinho, Marco queria muito andar de balanço.", "en": "At the playground, Marco really wanted to go on the swing.", "it": "Al parco giochi, Marco aveva tanta voglia di andare sull'altalena." },
+        { "pt": "Mas uma menina já estava no balanço.", "en": "But a girl was already on the swing.", "it": "Ma una bambina era già sull'altalena." },
+        { "pt": "Marco quis puxar o balanço, mas a mamãe disse: “Vamos esperar a sua vez.”", "en": "Marco wanted to grab the swing, but Mom said, “Let's wait for your turn.”", "it": "Marco voleva prendere l'altalena, ma la mamma ha detto: «Aspettiamo il tuo turno»." },
+        { "pt": "Marco contou até vinte bem devagar, junto com a mamãe.", "en": "Marco counted to twenty very slowly, together with Mom.", "it": "Marco ha contato fino a venti molto piano, insieme alla mamma." },
+        { "pt": "A menina desceu, sorriu e disse: “Agora é a sua vez!”", "en": "The girl got off, smiled and said, “Now it's your turn!”", "it": "La bambina è scesa, ha sorriso e ha detto: «Adesso tocca a te!»" }
+      ],
+      "short": [1, 3, 4],
+      "parts": {
+        "who": [
+          { "pt": "Marco, a mamãe e uma menina", "en": "Marco, his mom and a girl", "it": "Marco, la mamma e una bambina" },
+          { "pt": "Marco e o professor", "en": "Marco and his teacher", "it": "Marco e il maestro" },
+          { "pt": "Sofia e o papai", "en": "Sofia and her dad", "it": "Sofia e il papà" }
+        ],
+        "where": [
+          { "pt": "No parquinho", "en": "At the playground", "it": "Al parco giochi" },
+          { "pt": "Na piscina", "en": "At the pool", "it": "In piscina" },
+          { "pt": "No supermercado", "en": "At the supermarket", "it": "Al supermercato" }
+        ],
+        "problem": [
+          { "pt": "Outra criança já estava no balanço", "en": "Another child was already on the swing", "it": "Un'altra bambina era già sull'altalena" },
+          { "pt": "O balanço estava quebrado", "en": "The swing was broken", "it": "L'altalena era rotta" },
+          { "pt": "Marco estava com sono", "en": "Marco was sleepy", "it": "Marco aveva sonno" }
+        ],
+        "solution": [
+          { "pt": "Marco esperou e contou até vinte", "en": "Marco waited and counted to twenty", "it": "Marco ha aspettato e ha contato fino a venti" },
+          { "pt": "Marco empurrou a menina", "en": "Marco pushed the girl", "it": "Marco ha spinto la bambina" },
+          { "pt": "Marco foi embora", "en": "Marco went home", "it": "Marco è andato via" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Marco esperou a vez dele para andar de balanço.", "en": "Marco waited for his turn on the swing.", "it": "Marco ha aspettato il suo turno per andare sull'altalena." },
+        { "pt": "O parquinho tem balanço.", "en": "The playground has a swing.", "it": "Il parco giochi ha un'altalena." },
+        { "pt": "A menina sorriu.", "en": "The girl smiled.", "it": "La bambina ha sorriso." }
+      ],
+      "moral": [
+        { "pt": "Esperar a nossa vez é justo com todos.", "en": "Waiting for our turn is fair to everyone.", "it": "Aspettare il nostro turno è giusto per tutti." },
+        { "pt": "Quem chega primeiro nunca precisa sair.", "en": "Whoever gets there first never has to leave.", "it": "Chi arriva prima non deve mai lasciare il posto." },
+        { "pt": "É melhor brincar sempre sozinho.", "en": "It's better to always play alone.", "it": "È meglio giocare sempre da soli." }
+      ],
+      "before": {
+        "startAt": 3,
+        "options": [
+          { "pt": "A mamãe disse para esperar a vez.", "en": "Mom said to wait for his turn.", "it": "La mamma ha detto di aspettare il turno." },
+          { "pt": "Marco caiu do balanço.", "en": "Marco fell off the swing.", "it": "Marco è caduto dall'altalena." },
+          { "pt": "A menina foi embora chorando.", "en": "The girl left crying.", "it": "La bambina è andata via piangendo." }
+        ]
+      },
+      "after": {
+        "hideFrom": 4,
+        "options": [
+          { "pt": "A menina desceu e deu a vez para o Marco.", "en": "The girl got off and gave Marco his turn.", "it": "La bambina è scesa e ha lasciato il turno a Marco." },
+          { "pt": "Marco desistiu e foi para casa.", "en": "Marco gave up and went home.", "it": "Marco ha rinunciato ed è tornato a casa." },
+          { "pt": "O balanço sumiu.", "en": "The swing disappeared.", "it": "L'altalena è sparita." }
+        ]
+      }
+    },
+    {
+      "id": "h07",
+      "level": 2,
+      "theme": { "pt": "Amizade e partilha", "en": "Friendship and sharing", "it": "Amicizia e condivisione" },
+      "title": { "pt": "O lanche esquecido", "en": "The Forgotten Snack", "it": "La merenda dimenticata" },
+      "scenes": [
+        { "pt": "Luca saiu correndo para a escola e esqueceu a lancheira em casa.", "en": "Luca rushed off to school and left his lunch box at home.", "it": "Luca è uscito di corsa per andare a scuola e ha dimenticato la merenda a casa." },
+        { "pt": "Na hora do recreio, ele ficou com fome e triste.", "en": "At recess, he was hungry and sad.", "it": "All'ora della ricreazione, aveva fame ed era triste." },
+        { "pt": "A amiga dele, Ana, perguntou: “Você quer dividir o meu lanche?”", "en": "His friend Anna asked, “Do you want to share my snack?”", "it": "La sua amica Anna gli ha chiesto: «Vuoi dividere la mia merenda?»" },
+        { "pt": "Ana deu metade dos biscoitos para o Luca.", "en": "Anna gave Luca half of her cookies.", "it": "Anna ha dato a Luca metà dei suoi biscotti." },
+        { "pt": "No dia seguinte, Luca levou uma maçã a mais para dar à Ana.", "en": "The next day, Luca brought an extra apple to give to Anna.", "it": "Il giorno dopo, Luca ha portato una mela in più da regalare ad Anna." }
+      ],
+      "short": [0, 3, 4],
+      "parts": {
+        "who": [
+          { "pt": "Luca e a amiga Ana", "en": "Luca and his friend Anna", "it": "Luca e la sua amica Anna" },
+          { "pt": "Luca e a mamãe", "en": "Luca and his mom", "it": "Luca e la mamma" },
+          { "pt": "Marco e uma menina", "en": "Marco and a girl", "it": "Marco e una bambina" }
+        ],
+        "where": [
+          { "pt": "Na escola", "en": "At school", "it": "A scuola" },
+          { "pt": "No parque", "en": "At the park", "it": "Al parco" },
+          { "pt": "Na casa da vovó", "en": "At Grandma's house", "it": "A casa della nonna" }
+        ],
+        "problem": [
+          { "pt": "Luca esqueceu o lanche e ficou com fome", "en": "Luca forgot his snack and was hungry", "it": "Luca ha dimenticato la merenda e aveva fame" },
+          { "pt": "Luca perdeu o ônibus", "en": "Luca missed the bus", "it": "Luca ha perso l'autobus" },
+          { "pt": "Ana estava doente", "en": "Anna was sick", "it": "Anna era malata" }
+        ],
+        "solution": [
+          { "pt": "Ana dividiu o lanche com ele", "en": "Anna shared her snack with him", "it": "Anna ha diviso la merenda con lui" },
+          { "pt": "Luca voltou para casa", "en": "Luca went back home", "it": "Luca è tornato a casa" },
+          { "pt": "A professora deu um bolo para ele", "en": "The teacher gave him a cake", "it": "La maestra gli ha dato una torta" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Luca esqueceu o lanche, e a amiga dividiu o dela com ele.", "en": "Luca forgot his snack, and his friend shared hers with him.", "it": "Luca ha dimenticato la merenda e la sua amica ha diviso la sua con lui." },
+        { "pt": "Ana tem biscoitos.", "en": "Anna has cookies.", "it": "Anna ha dei biscotti." },
+        { "pt": "Luca gosta de maçã.", "en": "Luca likes apples.", "it": "A Luca piacciono le mele." }
+      ],
+      "moral": [
+        { "pt": "Os amigos se ajudam.", "en": "Friends help each other.", "it": "Gli amici si aiutano." },
+        { "pt": "Devemos comer sempre sozinhos.", "en": "We should always eat alone.", "it": "Dobbiamo mangiare sempre da soli." },
+        { "pt": "Biscoito é melhor que maçã.", "en": "Cookies are better than apples.", "it": "I biscotti sono meglio delle mele." }
+      ],
+      "before": {
+        "startAt": 2,
+        "options": [
+          { "pt": "Luca esqueceu a lancheira e ficou com fome.", "en": "Luca forgot his lunch box and was hungry.", "it": "Luca ha dimenticato la merenda e aveva fame." },
+          { "pt": "Luca deu o lanche para o cachorro.", "en": "Luca gave his snack to the dog.", "it": "Luca ha dato la merenda al cane." },
+          { "pt": "Ana esqueceu a mochila.", "en": "Anna forgot her backpack.", "it": "Anna ha dimenticato lo zaino." }
+        ]
+      },
+      "after": {
+        "hideFrom": 4,
+        "options": [
+          { "pt": "Luca levou uma maçã para dar à Ana.", "en": "Luca brought an apple to give to Anna.", "it": "Luca ha portato una mela da regalare ad Anna." },
+          { "pt": "Luca esqueceu a lancheira de novo.", "en": "Luca forgot his lunch box again.", "it": "Luca ha dimenticato di nuovo la merenda." },
+          { "pt": "Ana ficou brava com o Luca.", "en": "Anna got angry with Luca.", "it": "Anna si è arrabbiata con Luca." }
+        ]
+      }
+    },
+    {
+      "id": "h08",
+      "level": 3,
+      "theme": { "pt": "Contar o que sente", "en": "Saying how you feel", "it": "Dire come ci si sente" },
+      "title": { "pt": "O barulho do liquidificador", "en": "The Noisy Blender", "it": "Il frullatore rumoroso" },
+      "scenes": [
+        { "pt": "Toda manhã, a mamãe do Rafael faz vitamina de banana no liquidificador.", "en": "Every morning, Rafael's mom makes a banana smoothie in the blender.", "it": "Ogni mattina, la mamma di Raffaele prepara un frullato di banana con il frullatore." },
+        { "pt": "O barulho do liquidificador é muito forte para o Rafael, e ele tapa os ouvidos.", "en": "The blender's noise is too loud for Rafael, and he covers his ears.", "it": "Il rumore del frullatore è troppo forte per Raffaele, e lui si tappa le orecchie." },
+        { "pt": "Um dia, ele saiu correndo da cozinha e se escondeu no quarto.", "en": "One day, he ran out of the kitchen and hid in his room.", "it": "Un giorno è scappato dalla cucina e si è nascosto in camera." },
+        { "pt": "Depois, mais calmo, Rafael contou à mamãe: “Esse barulho machuca os meus ouvidos.”", "en": "Later, feeling calmer, Rafael told his mom, “That noise hurts my ears.”", "it": "Più tardi, più tranquillo, Raffaele ha detto alla mamma: «Quel rumore mi fa male alle orecchie»." },
+        { "pt": "A mamãe agradeceu por ele contar e deu a ele um abafador para os ouvidos.", "en": "Mom thanked him for telling her and gave him earmuffs to block the noise.", "it": "La mamma lo ha ringraziato per averglielo detto e gli ha dato delle cuffie antirumore." },
+        { "pt": "Agora, a mamãe avisa antes de ligar o liquidificador, e Rafael coloca o abafador.", "en": "Now Mom warns him before turning on the blender, and Rafael puts on his earmuffs.", "it": "Adesso la mamma lo avvisa prima di accendere il frullatore, e Raffaele si mette le cuffie." }
+      ],
+      "short": [1, 3, 5],
+      "parts": {
+        "who": [
+          { "pt": "Rafael e a mamãe", "en": "Rafael and his mom", "it": "Raffaele e la mamma" },
+          { "pt": "Rafael e o irmão", "en": "Rafael and his brother", "it": "Raffaele e il fratello" },
+          { "pt": "Lara e a vovó", "en": "Lara and her grandma", "it": "Lara e la nonna" }
+        ],
+        "where": [
+          { "pt": "Em casa, na cozinha", "en": "At home, in the kitchen", "it": "A casa, in cucina" },
+          { "pt": "Na escola", "en": "At school", "it": "A scuola" },
+          { "pt": "No consultório médico", "en": "At the doctor's office", "it": "Dal dottore" }
+        ],
+        "problem": [
+          { "pt": "O barulho do liquidificador incomodava o Rafael", "en": "The blender's noise bothered Rafael", "it": "Il rumore del frullatore dava fastidio a Raffaele" },
+          { "pt": "O liquidificador quebrou", "en": "The blender broke", "it": "Il frullatore si è rotto" },
+          { "pt": "A vitamina estava ruim", "en": "The smoothie tasted bad", "it": "Il frullato non era buono" }
+        ],
+        "solution": [
+          { "pt": "Rafael contou o que sentia, e a mamãe passou a avisar e deu um abafador", "en": "Rafael said how he felt, and Mom started warning him and gave him earmuffs", "it": "Raffaele ha detto cosa provava, e la mamma ha iniziato ad avvisarlo e gli ha dato delle cuffie" },
+          { "pt": "A mamãe jogou o liquidificador fora", "en": "Mom threw the blender away", "it": "La mamma ha buttato via il frullatore" },
+          { "pt": "Rafael parou de tomar café da manhã", "en": "Rafael stopped eating breakfast", "it": "Raffaele ha smesso di fare colazione" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Rafael contou que o barulho o incomodava, e a mamãe encontrou um jeito de ajudar.", "en": "Rafael told his mom the noise bothered him, and she found a way to help.", "it": "Raffaele ha detto che il rumore gli dava fastidio e la mamma ha trovato un modo per aiutarlo." },
+        { "pt": "A mamãe faz vitamina de banana.", "en": "Mom makes banana smoothies.", "it": "La mamma prepara il frullato di banana." },
+        { "pt": "Rafael se escondeu no quarto.", "en": "Rafael hid in his room.", "it": "Raffaele si è nascosto in camera." }
+      ],
+      "moral": [
+        { "pt": "Contar o que sentimos ajuda os outros a nos ajudar.", "en": "Telling others how we feel helps them help us.", "it": "Dire agli altri come ci sentiamo li aiuta ad aiutarci." },
+        { "pt": "Devemos sempre nos esconder.", "en": "We should always hide.", "it": "Dobbiamo sempre nasconderci." },
+        { "pt": "Liquidificadores são proibidos.", "en": "Blenders are not allowed.", "it": "I frullatori sono vietati." }
+      ],
+      "before": {
+        "startAt": 3,
+        "options": [
+          { "pt": "Rafael tapou os ouvidos e correu para o quarto.", "en": "Rafael covered his ears and ran to his room.", "it": "Raffaele si è tappato le orecchie ed è corso in camera." },
+          { "pt": "Rafael quebrou o liquidificador.", "en": "Rafael broke the blender.", "it": "Raffaele ha rotto il frullatore." },
+          { "pt": "Rafael pediu uma vitamina maior.", "en": "Rafael asked for a bigger smoothie.", "it": "Raffaele ha chiesto un frullato più grande." }
+        ]
+      },
+      "after": {
+        "hideFrom": 5,
+        "options": [
+          { "pt": "A mamãe passou a avisar antes de ligar o liquidificador.", "en": "Mom started warning him before turning on the blender.", "it": "La mamma ha iniziato ad avvisarlo prima di accendere il frullatore." },
+          { "pt": "Rafael nunca mais entrou na cozinha.", "en": "Rafael never went into the kitchen again.", "it": "Raffaele non è mai più entrato in cucina." },
+          { "pt": "A mamãe ligou o liquidificador ainda mais forte.", "en": "Mom turned the blender up even louder.", "it": "La mamma ha acceso il frullatore ancora più forte." }
+        ]
+      }
+    },
+    {
+      "id": "h09",
+      "level": 3,
+      "theme": { "pt": "Preparação e coragem", "en": "Preparing and being brave", "it": "Prepararsi e farsi coraggio" },
+      "title": { "pt": "A apresentação da Lara", "en": "Lara's Presentation", "it": "La presentazione di Lara" },
+      "scenes": [
+        { "pt": "A professora pediu para cada aluno falar sobre um animal na frente da turma.", "en": "The teacher asked each student to talk about an animal in front of the class.", "it": "La maestra ha chiesto a ogni alunno di parlare di un animale davanti alla classe." },
+        { "pt": "Lara escolheu as tartarugas e fez um desenho bem bonito.", "en": "Lara chose turtles and made a really nice drawing.", "it": "Lara ha scelto le tartarughe e ha fatto un disegno bellissimo." },
+        { "pt": "Lara estava nervosa, então treinou a apresentação com a vovó todos os dias.", "en": "Lara was nervous, so she practiced her presentation with her grandma every day.", "it": "Lara era agitata, così ha provato la presentazione con la nonna tutti i giorni." },
+        { "pt": "No dia da apresentação, a voz da Lara tremeu um pouco.", "en": "On the day of the presentation, Lara's voice shook a little.", "it": "Il giorno della presentazione, la voce di Lara tremava un po'." },
+        { "pt": "Ela olhou para o desenho, lembrou o que tinha treinado e continuou.", "en": "She looked at her drawing, remembered what she had practiced and kept going.", "it": "Ha guardato il disegno, si è ricordata quello che aveva provato ed è andata avanti." },
+        { "pt": "No final, a turma bateu palmas, e Lara ficou orgulhosa.", "en": "At the end, the class clapped, and Lara felt proud.", "it": "Alla fine, la classe ha applaudito e Lara si è sentita orgogliosa." }
+      ],
+      "short": [2, 4, 5],
+      "parts": {
+        "who": [
+          { "pt": "Lara, a vovó e a turma", "en": "Lara, her grandma and her class", "it": "Lara, la nonna e la classe" },
+          { "pt": "Lara e o médico", "en": "Lara and a doctor", "it": "Lara e il dottore" },
+          { "pt": "Luca e Ana", "en": "Luca and Anna", "it": "Luca e Anna" }
+        ],
+        "where": [
+          { "pt": "Na escola", "en": "At school", "it": "A scuola" },
+          { "pt": "No zoológico", "en": "At the zoo", "it": "Allo zoo" },
+          { "pt": "No parque", "en": "At the park", "it": "Al parco" }
+        ],
+        "problem": [
+          { "pt": "Lara estava nervosa para falar na frente da turma", "en": "Lara was nervous about speaking in front of the class", "it": "Lara era agitata all'idea di parlare davanti alla classe" },
+          { "pt": "Lara perdeu o desenho", "en": "Lara lost her drawing", "it": "Lara ha perso il disegno" },
+          { "pt": "A tartaruga fugiu", "en": "The turtle ran away", "it": "La tartaruga è scappata" }
+        ],
+        "solution": [
+          { "pt": "Lara treinou e usou o desenho para lembrar", "en": "Lara practiced and used her drawing to remember", "it": "Lara ha provato e ha usato il disegno per ricordare" },
+          { "pt": "Lara não foi à escola", "en": "Lara stayed home from school", "it": "Lara non è andata a scuola" },
+          { "pt": "A vovó falou no lugar dela", "en": "Grandma spoke for her", "it": "La nonna ha parlato al posto suo" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Lara estava nervosa, mas treinou e fez a apresentação.", "en": "Lara was nervous, but she practiced and gave her presentation.", "it": "Lara era agitata, ma si è preparata e ha fatto la presentazione." },
+        { "pt": "Tartarugas são animais.", "en": "Turtles are animals.", "it": "Le tartarughe sono animali." },
+        { "pt": "A turma bateu palmas.", "en": "The class clapped.", "it": "La classe ha applaudito." }
+      ],
+      "moral": [
+        { "pt": "Treinar nos ajuda a ficar mais seguros.", "en": "Practicing helps us feel more confident.", "it": "Esercitarsi ci aiuta a sentirci più sicuri." },
+        { "pt": "Nunca devemos ficar nervosos.", "en": "We should never feel nervous.", "it": "Non dobbiamo mai essere agitati." },
+        { "pt": "Só quem não tem medo consegue falar em público.", "en": "Only people who aren't scared can speak in public.", "it": "Solo chi non ha paura riesce a parlare in pubblico." }
+      ],
+      "before": {
+        "startAt": 3,
+        "options": [
+          { "pt": "Lara treinou a apresentação com a vovó.", "en": "Lara practiced her presentation with her grandma.", "it": "Lara ha provato la presentazione con la nonna." },
+          { "pt": "Lara faltou à aula.", "en": "Lara missed school.", "it": "Lara ha saltato la scuola." },
+          { "pt": "A professora cancelou a apresentação.", "en": "The teacher canceled the presentation.", "it": "La maestra ha annullato la presentazione." }
+        ]
+      },
+      "after": {
+        "hideFrom": 5,
+        "options": [
+          { "pt": "A turma bateu palmas, e Lara ficou orgulhosa.", "en": "The class clapped, and Lara felt proud.", "it": "La classe ha applaudito e Lara si è sentita orgogliosa." },
+          { "pt": "Lara saiu correndo da sala.", "en": "Lara ran out of the classroom.", "it": "Lara è scappata dall'aula." },
+          { "pt": "A professora pediu para ela parar.", "en": "The teacher asked her to stop.", "it": "La maestra le ha chiesto di smettere." }
+        ]
+      }
+    },
+    {
+      "id": "h10",
+      "level": 3,
+      "theme": { "pt": "Persistência", "en": "Not giving up", "it": "Non arrendersi" },
+      "title": { "pt": "A peça que sumiu", "en": "The Missing Piece", "it": "Il pezzo scomparso" },
+      "scenes": [
+        { "pt": "Theo e a irmã, Clara, montavam um quebra-cabeça de cem peças.", "en": "Theo and his sister Clara were doing a hundred-piece jigsaw puzzle.", "it": "Teo e sua sorella Clara stavano facendo un puzzle da cento pezzi." },
+        { "pt": "Quando estavam quase terminando, perceberam que faltava uma peça.", "en": "When they were almost done, they realized one piece was missing.", "it": "Quando avevano quasi finito, si sono accorti che mancava un pezzo." },
+        { "pt": "Eles procuraram embaixo do sofá, na caixa e atrás das almofadas, mas não acharam.", "en": "They looked under the sofa, in the box and behind the cushions, but they couldn't find it.", "it": "Hanno cercato sotto il divano, nella scatola e dietro i cuscini, ma non l'hanno trovato." },
+        { "pt": "Então, Theo viu o cachorro deitado na caminha, mordendo alguma coisa.", "en": "Then Theo saw the dog lying in its bed, chewing on something.", "it": "Poi Teo ha visto il cane sdraiato nella cuccia che mordicchiava qualcosa." },
+        { "pt": "Era a peça que faltava! Estava um pouco molhada, mas inteira.", "en": "It was the missing piece! It was a little wet, but in one piece.", "it": "Era il pezzo che mancava! Era un po' bagnato, ma intero." },
+        { "pt": "Theo e Clara colocaram a última peça juntos e comemoraram.", "en": "Theo and Clara put in the last piece together and celebrated.", "it": "Teo e Clara hanno messo l'ultimo pezzo insieme e hanno festeggiato." }
+      ],
+      "short": [1, 3, 5],
+      "parts": {
+        "who": [
+          { "pt": "Theo, a irmã Clara e o cachorro", "en": "Theo, his sister Clara and the dog", "it": "Teo, sua sorella Clara e il cane" },
+          { "pt": "Theo e o papai", "en": "Theo and his dad", "it": "Teo e il papà" },
+          { "pt": "Rafael e a mamãe", "en": "Rafael and his mom", "it": "Raffaele e la mamma" }
+        ],
+        "where": [
+          { "pt": "Em casa", "en": "At home", "it": "A casa" },
+          { "pt": "Na escola", "en": "At school", "it": "A scuola" },
+          { "pt": "Na loja de brinquedos", "en": "At the toy store", "it": "Al negozio di giocattoli" }
+        ],
+        "problem": [
+          { "pt": "Faltava uma peça do quebra-cabeça", "en": "A puzzle piece was missing", "it": "Mancava un pezzo del puzzle" },
+          { "pt": "O quebra-cabeça rasgou", "en": "The puzzle got torn", "it": "Il puzzle si è strappato" },
+          { "pt": "Clara não queria brincar", "en": "Clara didn't want to play", "it": "Clara non voleva giocare" }
+        ],
+        "solution": [
+          { "pt": "Theo encontrou a peça com o cachorro", "en": "Theo found the piece with the dog", "it": "Teo ha trovato il pezzo nella cuccia del cane" },
+          { "pt": "Eles compraram outro quebra-cabeça", "en": "They bought another puzzle", "it": "Hanno comprato un altro puzzle" },
+          { "pt": "Clara desenhou uma peça nova", "en": "Clara drew a new piece", "it": "Clara ha disegnato un pezzo nuovo" }
+        ]
+      },
+      "mainIdea": [
+        { "pt": "Theo e Clara procuraram a peça que faltava e acharam com o cachorro.", "en": "Theo and Clara searched for the missing piece and found it with the dog.", "it": "Teo e Clara hanno cercato il pezzo mancante e l'hanno trovato dal cane." },
+        { "pt": "O quebra-cabeça tinha cem peças.", "en": "The puzzle had a hundred pieces.", "it": "Il puzzle aveva cento pezzi." },
+        { "pt": "O cachorro dorme na caminha.", "en": "The dog sleeps in its bed.", "it": "Il cane dorme nella cuccia." }
+      ],
+      "moral": [
+        { "pt": "Quando não desistimos, conseguimos terminar o que começamos.", "en": "When we don't give up, we can finish what we started.", "it": "Quando non ci arrendiamo, riusciamo a finire quello che abbiamo cominciato." },
+        { "pt": "Cachorros não podem brincar.", "en": "Dogs aren't allowed to play.", "it": "I cani non possono giocare." },
+        { "pt": "Quebra-cabeças são difíceis demais.", "en": "Puzzles are too hard.", "it": "I puzzle sono troppo difficili." }
+      ],
+      "before": {
+        "startAt": 3,
+        "options": [
+          { "pt": "Eles procuraram a peça pela casa e não acharam.", "en": "They searched the house for the piece and couldn't find it.", "it": "Hanno cercato il pezzo per casa e non l'hanno trovato." },
+          { "pt": "O cachorro montou o quebra-cabeça.", "en": "The dog did the puzzle.", "it": "Il cane ha fatto il puzzle." },
+          { "pt": "Clara escondeu a peça de propósito.", "en": "Clara hid the piece on purpose.", "it": "Clara ha nascosto il pezzo apposta." }
+        ]
+      },
+      "after": {
+        "hideFrom": 5,
+        "options": [
+          { "pt": "Eles colocaram a última peça e comemoraram.", "en": "They put in the last piece and celebrated.", "it": "Hanno messo l'ultimo pezzo e hanno festeggiato." },
+          { "pt": "Eles jogaram o quebra-cabeça fora.", "en": "They threw the puzzle away.", "it": "Hanno buttato via il puzzle." },
+          { "pt": "O cachorro engoliu a peça.", "en": "The dog swallowed the piece.", "it": "Il cane ha inghiottito il pezzo." }
+        ]
+      }
+    }
+  ]
+}
